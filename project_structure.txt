@@ -1,0 +1,50 @@
+Project Structure for: C:\Users\boxer\Desktop\PROJ_ML
+================================================================================
+
+
+│   │   ├── match_players.csv
+│   │   └── sample_match_players.csv
+│   │   ├── best_fantasy_11.csv
+│   │   ├── match_evaluation_batsman.csv
+│   │   ├── match_evaluation_bowler.csv
+│   │   └── match_evaluation_combined.csv
+│   │   ├── batsman_d11.csv
+│   │   ├── batsman_data.csv
+│   │   ├── batsman_features.csv
+│   │   ├── batsman_test.csv
+│   │   ├── batsman_train.csv
+│   │   ├── bowler_d11.csv
+│   │   ├── bowler_data.csv
+│   │   ├── bowler_features.csv
+│   │   ├── bowler_test.csv
+│   │   └── bowler_train.csv
+
+│   ├── csv_matches/
+│   ├── match_input/
+│   ├── output/
+│   ├── processed/
+│   └── raw_yamls/
+│   ├── extract_csv.py
+│   ├── feature_engineering.py
+│   ├── feature_engineering_and_split.py
+│   ├── train_model.py
+│   └── train_xgboost.py
+│   ├── batsman_model.pkl
+│   ├── batsman_model_xgb.pkl
+│   ├── bowler_model.pkl
+│   └── bowler_model_xgb.pkl
+│   └── team_selector.py
+│   ├── app.py
+│   └── eda.py
+PROJ_ML/
+├── 01_data/
+├── 02_scripts/
+├── 03_models/
+├── 04_optimizer/
+├── 05_visuals/
+├── 06_app/
+├── .gitignore
+├── Team_selector_1.py
+├── app.py
+├── proj_dir.py
+└── project_structure.txt

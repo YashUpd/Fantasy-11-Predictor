@@ -1,0 +1,12 @@
+name,team1,team2,venue,date,career_avg,career_sr,last_5_avg,last_5_sr,venue_avg,career_wickets,career_eco,last_5_wkts,venue_wickets,role,predicted_points
+Rohit Sharma,MI,CSK,Mumbai,2024-04-20,32.5,133.2,45.3,145.0,37.2,,,,,batsman,70.5954818725586
+Virat Kohli,RCB,GT,Bangalore,2024-04-20,42.7,130.8,47.5,129.0,43.0,,,,,batsman,61.06316375732422
+Shubman Gill,GT,RCB,Ahmedabad,2024-04-20,41.8,136.7,48.0,142.3,44.1,,,,,batsman,60.74006271362305
+Faf du Plessis,RCB,GT,Bangalore,2024-04-20,36.1,135.0,41.2,132.6,39.8,,,,,batsman,55.110076904296875
+Andre Russell,KKR,PBKS,Kolkata,2024-04-20,30.2,168.5,38.0,175.0,32.1,1.5,9.0,1.6,1.4,allrounder,51.293121337890625
+David Warner,DC,SRH,Delhi,2024-04-20,39.6,141.5,40.1,138.2,38.3,,,,,batsman,49.55512619018555
+Shivam Dube,CSK,MI,Chennai,2024-04-20,26.4,134.2,35.1,142.2,28.0,0.2,10.1,0.4,0.1,allrounder,47.33559036254883
+Harshal Patel,RCB,GT,Bangalore,2024-04-20,,,,,,1.8,8.3,2.1,1.7,bowler,46.093166666666676
+Ravindra Jadeja,CSK,MI,Chennai,2024-04-20,26.7,126.1,34.0,128.9,28.5,1.05,7.2,1.4,1.0,allrounder,44.943397521972656
+Rashid Khan,GT,RCB,Ahmedabad,2024-04-20,,,,,,2.0,6.6,2.2,2.1,bowler,42.86583333333334
+Dinesh Karthik,RCB,GT,Bangalore,2024-04-20,29.8,141.3,31.5,138.5,30.0,,,,,wicketkeeper,42.844425201416016

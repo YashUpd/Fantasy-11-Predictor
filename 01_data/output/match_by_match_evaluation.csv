@@ -1,0 +1,179 @@
+match,date,venue,max_possible_pts,model_points,model_overlap,model_capture_pct,career_capture_pct,form_capture_pct,random_capture_pct
+Chennai Super Kings vs Delhi Capitals,2023-05-20,"Arun Jaitley Stadium, Delhi",829.5,792.0,8,95.48,75.35,82.58,30.74
+Chennai Super Kings vs Delhi Capitals,2023-05-10,"MA Chidambaram Stadium, Chepauk, Chennai",617.5,549.0,8,88.91,72.79,87.85,73.44
+Chennai Super Kings vs Gujarat Titans,2023-05-23,"MA Chidambaram Stadium, Chepauk, Chennai",685.5,573.5,9,83.66,81.84,85.49,52.81
+Chennai Super Kings vs Gujarat Titans,2024-03-26,"MA Chidambaram Stadium, Chepauk, Chennai",639.0,502.0,8,78.56,62.91,83.88,48.67
+Chennai Super Kings vs Gujarat Titans,2023-03-31,"Narendra Modi Stadium, Ahmedabad",746.5,646.5,9,86.6,70.26,86.27,63.03
+Chennai Super Kings vs Kolkata Knight Riders,2023-04-23,"Eden Gardens, Kolkata",807.0,751.5,9,93.12,56.51,84.26,35.19
+Chennai Super Kings vs Kolkata Knight Riders,2023-05-14,"MA Chidambaram Stadium, Chepauk, Chennai",630.5,512.5,8,81.28,50.36,76.21,34.66
+Chennai Super Kings vs Kolkata Knight Riders,2025-04-11,"MA Chidambaram Stadium, Chepauk, Chennai",572.0,437.0,7,76.4,66.96,66.61,18.62
+Chennai Super Kings vs Lucknow Super Giants,2024-04-19,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",683.0,567.5,8,83.09,67.86,69.47,48.9
+Chennai Super Kings vs Lucknow Super Giants,2023-04-03,"MA Chidambaram Stadium, Chepauk, Chennai",819.0,738.5,8,90.17,72.28,73.69,14.9
+Chennai Super Kings vs Lucknow Super Giants,2024-04-23,"MA Chidambaram Stadium, Chepauk, Chennai",892.0,839.5,8,94.11,40.86,86.55,78.08
+Chennai Super Kings vs Mumbai Indians,2024-04-14,"Wankhede Stadium, Mumbai",864.0,724.0,7,83.8,48.38,80.84,47.16
+Chennai Super Kings vs Punjab Kings,2024-05-05,"Himachal Pradesh Cricket Association Stadium, Dharamsala",702.5,606.5,8,86.33,57.15,78.79,31.25
+Chennai Super Kings vs Punjab Kings,2023-04-30,"MA Chidambaram Stadium, Chepauk, Chennai",704.5,700.5,10,99.43,71.11,90.92,64.87
+Chennai Super Kings vs Punjab Kings,2024-05-01,"MA Chidambaram Stadium, Chepauk, Chennai",596.5,452.0,7,75.78,57.84,61.36,45.52
+Chennai Super Kings vs Royal Challengers Bangalore,2023-04-17,"M Chinnaswamy Stadium, Bengaluru",834.5,725.5,7,86.94,67.53,76.51,42.6
+Chennai Super Kings vs Sunrisers Hyderabad,2024-04-28,"MA Chidambaram Stadium, Chepauk, Chennai",775.0,697.0,7,89.94,73.03,83.23,30.58
+Chennai Super Kings vs Sunrisers Hyderabad,2024-04-05,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",534.5,483.5,9,90.46,52.01,71.75,53.13
+Delhi Capitals vs Chennai Super Kings,2024-03-31,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",714.5,627.5,8,87.82,70.33,66.97,41.29
+Delhi Capitals vs Chennai Super Kings,2025-04-05,"MA Chidambaram Stadium, Chepauk, Chennai",667.0,426.5,7,63.94,64.32,64.77,38.98
+Delhi Capitals vs Gujarat Titans,2023-04-04,"Arun Jaitley Stadium, Delhi",664.5,632.0,9,95.11,73.14,82.39,48.76
+Delhi Capitals vs Gujarat Titans,2024-04-24,"Arun Jaitley Stadium, Delhi",896.5,798.0,10,89.01,44.73,58.11,37.65
+Delhi Capitals vs Gujarat Titans,2023-05-02,"Narendra Modi Stadium, Ahmedabad",707.0,539.0,7,76.24,47.81,71.99,35.79
+Delhi Capitals vs Kolkata Knight Riders,2024-04-29,"Eden Gardens, Kolkata",659.5,627.0,10,95.07,66.72,82.79,41.47
+Delhi Capitals vs Lucknow Super Giants,2024-05-14,"Arun Jaitley Stadium, Delhi",768.5,668.0,9,86.92,43.46,66.43,52.96
+Delhi Capitals vs Mumbai Indians,2023-04-11,"Arun Jaitley Stadium, Delhi",807.5,767.0,9,94.98,65.51,89.41,56.1
+Delhi Capitals vs Mumbai Indians,2024-04-27,"Arun Jaitley Stadium, Delhi",903.0,682.5,6,75.58,52.38,83.0,38.48
+Delhi Capitals vs Punjab Kings,2023-05-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",892.0,783.0,9,87.78,33.35,75.95,40.36
+Delhi Capitals vs Punjab Kings,2024-03-23,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",730.5,663.5,9,90.83,60.23,59.0,40.52
+Delhi Capitals vs Rajasthan Royals,2024-05-07,"Arun Jaitley Stadium, Delhi",858.0,608.0,6,70.86,54.6,72.67,48.31
+Delhi Capitals vs Rajasthan Royals,2025-04-16,"Arun Jaitley Stadium, Delhi",643.0,517.0,7,80.4,58.01,81.96,45.88
+Delhi Capitals vs Sunrisers Hyderabad,2023-04-24,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",721.5,491.0,6,68.05,44.21,45.32,32.57
+Gujarat Titans vs Chennai Super Kings,2023-05-29,"Narendra Modi Stadium, Ahmedabad",780.5,616.0,8,78.92,68.29,78.09,38.44
+Gujarat Titans vs Chennai Super Kings,2024-05-10,"Narendra Modi Stadium, Ahmedabad",989.0,885.0,8,89.48,68.45,77.45,34.58
+Gujarat Titans vs Delhi Capitals,2024-04-17,"Narendra Modi Stadium, Ahmedabad",580.5,456.0,6,78.55,46.94,75.45,21.45
+Gujarat Titans vs Kolkata Knight Riders,2023-04-09,"Narendra Modi Stadium, Ahmedabad",846.5,705.0,9,83.28,44.77,47.9,29.06
+Gujarat Titans vs Lucknow Super Giants,2023-04-22,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",760.0,545.0,9,71.71,60.46,67.76,42.5
+Gujarat Titans vs Lucknow Super Giants,2025-04-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",711.5,618.0,8,86.86,74.49,85.8,47.43
+Gujarat Titans vs Lucknow Super Giants,2023-05-07,"Narendra Modi Stadium, Ahmedabad",846.5,704.0,9,83.17,65.92,93.44,48.14
+Gujarat Titans vs Mumbai Indians,2023-04-25,"Narendra Modi Stadium, Ahmedabad",703.5,540.5,7,76.83,70.01,72.28,44.63
+Gujarat Titans vs Mumbai Indians,2023-05-26,"Narendra Modi Stadium, Ahmedabad",1001.5,958.5,9,95.71,74.69,90.96,54.37
+Gujarat Titans vs Mumbai Indians,2024-03-24,"Narendra Modi Stadium, Ahmedabad",646.0,548.5,9,84.91,70.67,88.16,32.35
+Gujarat Titans vs Mumbai Indians,2025-03-29,"Narendra Modi Stadium, Ahmedabad",663.5,572.0,8,86.21,82.52,86.44,56.07
+Gujarat Titans vs Punjab Kings,2024-04-04,"Narendra Modi Stadium, Ahmedabad",705.5,470.5,5,66.69,63.5,58.75,38.2
+Gujarat Titans vs Rajasthan Royals,2023-04-16,"Narendra Modi Stadium, Ahmedabad",751.0,550.0,7,73.24,47.8,59.39,31.56
+Gujarat Titans vs Rajasthan Royals,2025-04-09,"Narendra Modi Stadium, Ahmedabad",758.5,613.5,7,80.88,79.76,84.05,48.71
+Gujarat Titans vs Royal Challengers Bengaluru,2024-05-04,"M Chinnaswamy Stadium, Bengaluru",839.0,720.0,9,85.82,62.57,69.37,60.07
+Gujarat Titans vs Royal Challengers Bengaluru,2024-04-28,"Narendra Modi Stadium, Ahmedabad",817.0,759.0,9,92.9,50.12,76.62,36.11
+Gujarat Titans vs Sunrisers Hyderabad,2023-05-15,"Narendra Modi Stadium, Ahmedabad",1028.0,806.5,6,78.45,82.98,85.6,48.74
+Kolkata Knight Riders vs Chennai Super Kings,2024-04-08,"MA Chidambaram Stadium, Chepauk, Chennai",654.5,487.0,7,74.41,56.07,78.07,65.09
+Kolkata Knight Riders vs Delhi Capitals,2023-04-20,"Arun Jaitley Stadium, Delhi",719.0,525.0,8,73.02,62.03,45.76,29.69
+Kolkata Knight Riders vs Delhi Capitals,2024-04-03,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",919.5,861.5,10,93.69,60.36,72.97,51.71
+Kolkata Knight Riders vs Gujarat Titans,2023-04-29,"Eden Gardens, Kolkata",749.5,632.5,8,84.39,48.77,64.31,36.56
+Kolkata Knight Riders vs Lucknow Super Giants,2024-05-05,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",749.5,704.5,8,94.0,61.77,81.45,59.71
+Kolkata Knight Riders vs Mumbai Indians,2024-05-11,"Eden Gardens, Kolkata",653.5,517.0,8,79.11,59.14,70.54,36.57
+Kolkata Knight Riders vs Mumbai Indians,2023-04-16,"Wankhede Stadium, Mumbai",765.5,655.0,8,85.56,51.67,63.23,23.25
+Kolkata Knight Riders vs Mumbai Indians,2024-05-03,"Wankhede Stadium, Mumbai",882.0,723.0,7,81.97,64.46,73.92,31.18
+Kolkata Knight Riders vs Mumbai Indians,2025-03-31,"Wankhede Stadium, Mumbai",653.0,567.0,7,86.83,57.04,75.65,47.17
+Kolkata Knight Riders vs Punjab Kings,2024-04-26,"Eden Gardens, Kolkata",991.5,928.0,9,93.6,39.23,73.63,45.34
+Kolkata Knight Riders vs Rajasthan Royals,2023-05-11,"Eden Gardens, Kolkata",764.0,643.0,8,84.16,57.98,79.32,54.32
+Kolkata Knight Riders vs Rajasthan Royals,2024-04-16,"Eden Gardens, Kolkata",925.0,806.0,6,87.14,58.59,84.38,47.51
+Kolkata Knight Riders vs Royal Challengers Bangalore,2023-04-06,"Eden Gardens, Kolkata",821.5,691.5,7,84.18,41.39,66.46,44.19
+Kolkata Knight Riders vs Royal Challengers Bangalore,2023-04-26,"M Chinnaswamy Stadium, Bengaluru",743.5,665.5,8,89.51,55.95,76.4,29.86
+Kolkata Knight Riders vs Royal Challengers Bengaluru,2024-04-21,"Eden Gardens, Kolkata",758.5,610.5,8,80.49,75.68,61.04,55.17
+Kolkata Knight Riders vs Royal Challengers Bengaluru,2025-03-22,"Eden Gardens, Kolkata",710.5,609.5,8,85.78,64.32,80.58,52.22
+Kolkata Knight Riders vs Sunrisers Hyderabad,2024-03-23,"Eden Gardens, Kolkata",796.5,595.0,6,74.7,56.31,71.81,42.44
+Kolkata Knight Riders vs Sunrisers Hyderabad,2025-04-03,"Eden Gardens, Kolkata",726.5,667.0,10,91.81,63.94,81.42,69.17
+Kolkata Knight Riders vs Sunrisers Hyderabad,2023-05-04,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",614.0,503.0,6,81.92,69.95,83.88,49.02
+Lucknow Super Giants vs Chennai Super Kings,2023-05-03,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",432.0,389.0,9,90.05,85.19,86.57,48.84
+Lucknow Super Giants vs Chennai Super Kings,2025-04-14,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",631.5,410.5,8,65.0,73.24,59.22,62.79
+Lucknow Super Giants vs Delhi Capitals,2023-04-01,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",843.5,705.5,7,83.64,87.85,83.28,31.54
+Lucknow Super Giants vs Delhi Capitals,2024-04-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",662.5,492.5,7,74.34,67.55,66.64,17.58
+Lucknow Super Giants vs Delhi Capitals,2025-03-24,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",899.0,797.5,9,88.71,59.45,75.58,54.45
+Lucknow Super Giants vs Gujarat Titans,2024-04-07,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",774.5,564.0,7,72.82,38.54,72.43,28.47
+Lucknow Super Giants vs Kolkata Knight Riders,2023-05-20,"Eden Gardens, Kolkata",741.0,637.5,7,86.03,48.25,60.12,35.56
+Lucknow Super Giants vs Kolkata Knight Riders,2024-04-14,"Eden Gardens, Kolkata",691.5,465.5,8,67.32,76.5,61.32,35.5
+Lucknow Super Giants vs Kolkata Knight Riders,2025-04-08,"Eden Gardens, Kolkata",858.5,735.0,7,85.61,50.73,83.23,63.77
+Lucknow Super Giants vs Mumbai Indians,2023-05-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",723.5,536.5,7,74.15,43.54,62.61,37.66
+Lucknow Super Giants vs Mumbai Indians,2025-04-04,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",839.0,792.0,8,94.4,39.15,70.38,55.48
+Lucknow Super Giants vs Mumbai Indians,2024-05-17,"Wankhede Stadium, Mumbai",857.0,596.0,7,69.54,75.38,65.11,47.61
+Lucknow Super Giants vs Punjab Kings,2023-04-15,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",710.5,653.5,9,91.98,66.01,76.57,27.16
+Lucknow Super Giants vs Punjab Kings,2024-03-30,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",768.5,621.5,7,80.87,77.03,66.56,27.59
+Lucknow Super Giants vs Punjab Kings,2025-04-01,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",711.5,554.5,6,77.93,44.06,63.6,43.36
+Lucknow Super Giants vs Punjab Kings,2023-04-28,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",902.0,784.0,9,86.92,59.59,59.7,38.47
+Lucknow Super Giants vs Rajasthan Royals,2024-04-27,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",707.0,619.0,8,87.55,60.68,65.77,42.08
+Lucknow Super Giants vs Rajasthan Royals,2023-04-19,"Sawai Mansingh Stadium, Jaipur",667.5,534.0,9,80.0,68.31,82.55,45.62
+Lucknow Super Giants vs Royal Challengers Bengaluru,2024-04-02,"M Chinnaswamy Stadium, Bengaluru",764.5,723.5,8,94.64,86.2,90.39,42.51
+Lucknow Super Giants vs Sunrisers Hyderabad,2024-05-08,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",717.5,685.0,9,95.47,44.88,77.98,41.39
+Mumbai Indians vs Chennai Super Kings,2023-05-06,"MA Chidambaram Stadium, Chepauk, Chennai",637.0,524.5,9,82.34,70.41,84.46,45.76
+Mumbai Indians vs Chennai Super Kings,2025-03-23,"MA Chidambaram Stadium, Chepauk, Chennai",769.5,623.5,8,81.03,72.97,78.17,30.93
+Mumbai Indians vs Chennai Super Kings,2023-04-08,"Wankhede Stadium, Mumbai",615.5,493.0,8,80.1,56.05,87.41,43.62
+Mumbai Indians vs Delhi Capitals,2025-04-13,"Arun Jaitley Stadium, Delhi",899.0,859.0,11,95.55,43.16,69.74,37.54
+Mumbai Indians vs Delhi Capitals,2024-04-07,"Wankhede Stadium, Mumbai",887.0,465.0,6,52.42,32.86,59.75,34.33
+Mumbai Indians vs Gujarat Titans,2023-05-12,"Wankhede Stadium, Mumbai",954.0,778.0,6,81.55,60.48,69.92,31.66
+Mumbai Indians vs Lucknow Super Giants,2024-04-30,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",628.5,479.5,6,76.29,51.31,66.27,51.15
+Mumbai Indians vs Lucknow Super Giants,2023-05-24,"MA Chidambaram Stadium, Chepauk, Chennai",897.0,803.0,8,89.52,83.17,89.58,15.55
+Mumbai Indians vs Punjab Kings,2024-04-18,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",877.5,841.0,10,95.84,69.12,82.51,30.94
+Mumbai Indians vs Rajasthan Royals,2024-04-22,"Sawai Mansingh Stadium, Jaipur",893.5,734.5,10,82.2,66.48,61.22,59.99
+Mumbai Indians vs Rajasthan Royals,2024-04-01,"Wankhede Stadium, Mumbai",640.5,583.0,7,91.02,77.13,87.9,57.92
+Mumbai Indians vs Royal Challengers Bangalore,2023-04-02,"M Chinnaswamy Stadium, Bengaluru",721.0,635.0,7,88.07,69.35,85.92,56.1
+Mumbai Indians vs Sunrisers Hyderabad,2023-04-18,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",722.5,612.5,8,84.78,79.1,74.12,55.09
+Punjab Kings vs Chennai Super Kings,2025-04-08,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",870.5,687.5,8,78.98,50.6,58.59,18.15
+Punjab Kings vs Delhi Capitals,2023-05-13,"Arun Jaitley Stadium, Delhi",817.0,735.5,8,90.02,46.57,60.71,15.48
+Punjab Kings vs Gujarat Titans,2024-04-21,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",754.5,641.5,7,85.02,66.0,70.84,28.89
+Punjab Kings vs Gujarat Titans,2025-03-25,"Narendra Modi Stadium, Ahmedabad",908.5,834.0,9,91.8,78.87,78.7,55.81
+Punjab Kings vs Gujarat Titans,2023-04-13,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",589.5,518.5,6,87.96,72.18,69.3,43.85
+Punjab Kings vs Kolkata Knight Riders,2023-05-08,"Eden Gardens, Kolkata",652.0,536.0,6,82.21,65.41,83.97,63.27
+Punjab Kings vs Kolkata Knight Riders,2025-04-15,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",744.5,648.0,9,87.04,68.57,74.88,42.04
+Punjab Kings vs Kolkata Knight Riders,2023-04-01,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",581.5,531.5,8,91.4,76.44,80.31,46.86
+Punjab Kings vs Mumbai Indians,2023-05-03,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",785.0,732.0,8,93.25,46.94,80.7,50.83
+Punjab Kings vs Mumbai Indians,2023-04-22,"Wankhede Stadium, Mumbai",839.5,666.5,8,79.39,65.99,59.56,63.97
+Punjab Kings vs Rajasthan Royals,2023-04-05,"Barsapara Cricket Stadium, Guwahati",818.0,717.0,8,87.65,57.64,70.66,25.79
+Punjab Kings vs Rajasthan Royals,2023-05-19,"Himachal Pradesh Cricket Association Stadium, Dharamsala",676.5,600.0,8,88.69,57.13,44.05,67.18
+Punjab Kings vs Rajasthan Royals,2024-04-13,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",566.0,421.0,6,74.38,73.06,75.27,68.37
+Punjab Kings vs Royal Challengers Bengaluru,2024-03-25,"M Chinnaswamy Stadium, Bengaluru",653.0,556.0,6,85.15,64.4,67.76,32.08
+Punjab Kings vs Sunrisers Hyderabad,2023-04-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",816.0,699.5,8,85.72,61.89,82.54,31.68
+Punjab Kings vs Sunrisers Hyderabad,2024-05-19,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",789.5,569.0,8,72.07,61.94,69.28,62.38
+Punjab Kings vs Sunrisers Hyderabad,2025-04-12,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",1040.0,955.0,11,91.83,54.62,84.13,10.19
+Rajasthan Royals vs Chennai Super Kings,2025-03-30,"Barsapara Cricket Stadium, Guwahati",813.0,735.0,8,90.41,79.7,74.48,19.56
+Rajasthan Royals vs Chennai Super Kings,2023-04-12,"MA Chidambaram Stadium, Chepauk, Chennai",685.5,558.5,7,81.47,57.26,80.6,44.57
+Rajasthan Royals vs Chennai Super Kings,2024-05-12,"MA Chidambaram Stadium, Chepauk, Chennai",568.0,495.5,8,87.24,52.2,70.77,36.36
+Rajasthan Royals vs Chennai Super Kings,2023-04-27,"Sawai Mansingh Stadium, Jaipur",721.5,582.5,8,80.73,51.49,63.41,49.41
+Rajasthan Royals vs Delhi Capitals,2023-04-08,"Barsapara Cricket Stadium, Guwahati",822.5,813.0,10,98.84,71.73,82.49,47.72
+Rajasthan Royals vs Delhi Capitals,2024-03-28,"Sawai Mansingh Stadium, Jaipur",664.0,577.5,7,86.97,50.83,72.29,44.28
+Rajasthan Royals vs Gujarat Titans,2023-05-05,"Sawai Mansingh Stadium, Jaipur",611.0,455.0,7,74.47,49.75,62.77,47.14
+Rajasthan Royals vs Gujarat Titans,2024-04-10,"Sawai Mansingh Stadium, Jaipur",755.0,692.5,8,91.72,56.29,75.36,34.44
+Rajasthan Royals vs Kolkata Knight Riders,2025-03-26,"Barsapara Cricket Stadium, Guwahati",673.0,587.5,7,87.3,63.97,69.24,61.22
+Rajasthan Royals vs Lucknow Super Giants,2024-03-24,"Sawai Mansingh Stadium, Jaipur",715.0,605.5,6,84.69,56.64,65.45,63.43
+Rajasthan Royals vs Mumbai Indians,2023-04-30,"Wankhede Stadium, Mumbai",878.5,783.0,7,89.13,39.73,79.28,37.34
+Rajasthan Royals vs Punjab Kings,2024-05-15,"Barsapara Cricket Stadium, Guwahati",657.5,559.0,9,85.02,66.77,63.73,37.26
+Rajasthan Royals vs Punjab Kings,2025-04-05,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",719.0,660.0,9,91.79,56.12,53.82,39.22
+Rajasthan Royals vs Royal Challengers Bengaluru,2025-04-13,"Sawai Mansingh Stadium, Jaipur",673.0,570.0,8,84.7,52.97,63.15,63.67
+Rajasthan Royals vs Sunrisers Hyderabad,2023-04-02,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",767.5,620.0,8,80.78,82.35,82.93,26.78
+Rajasthan Royals vs Sunrisers Hyderabad,2023-05-07,"Sawai Mansingh Stadium, Jaipur",844.0,750.0,10,88.86,59.54,67.89,33.89
+Royal Challengers Bangalore vs Delhi Capitals,2023-05-06,"Arun Jaitley Stadium, Delhi",702.0,563.0,8,80.2,62.32,62.32,31.84
+Royal Challengers Bangalore vs Delhi Capitals,2023-04-15,"M Chinnaswamy Stadium, Bengaluru",658.5,642.0,8,97.49,61.43,76.77,40.85
+Royal Challengers Bangalore vs Gujarat Titans,2023-05-21,"M Chinnaswamy Stadium, Bengaluru",841.0,731.5,7,86.98,58.56,83.23,50.42
+Royal Challengers Bangalore vs Lucknow Super Giants,2023-05-01,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",617.0,483.0,8,78.28,67.5,76.34,41.0
+Royal Challengers Bangalore vs Lucknow Super Giants,2023-04-10,"M Chinnaswamy Stadium, Bengaluru",892.5,852.5,10,95.52,64.03,62.13,38.54
+Royal Challengers Bangalore vs Mumbai Indians,2023-05-09,"Wankhede Stadium, Mumbai",843.0,698.0,9,82.8,40.93,79.24,53.14
+Royal Challengers Bangalore vs Punjab Kings,2023-04-20,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",781.5,678.5,8,86.82,69.99,83.24,49.07
+Royal Challengers Bangalore vs Rajasthan Royals,2023-04-23,"M Chinnaswamy Stadium, Bengaluru",863.5,679.0,7,78.63,55.82,74.23,12.16
+Royal Challengers Bangalore vs Rajasthan Royals,2023-05-14,"Sawai Mansingh Stadium, Jaipur",717.5,487.0,7,67.87,52.68,63.14,48.22
+Royal Challengers Bengaluru vs Chennai Super Kings,2024-05-18,"M Chinnaswamy Stadium, Bengaluru",738.5,637.0,8,86.26,54.5,71.83,44.41
+Royal Challengers Bengaluru vs Chennai Super Kings,2024-03-22,"MA Chidambaram Stadium, Chepauk, Chennai",651.0,478.0,7,73.43,48.23,60.29,51.61
+Royal Challengers Bengaluru vs Chennai Super Kings,2025-03-28,"MA Chidambaram Stadium, Chepauk, Chennai",693.5,636.5,8,91.78,72.1,82.7,46.72
+Royal Challengers Bengaluru vs Delhi Capitals,2024-05-12,"M Chinnaswamy Stadium, Bengaluru",818.5,650.5,8,79.47,61.7,82.59,49.6
+Royal Challengers Bengaluru vs Delhi Capitals,2025-04-10,"M Chinnaswamy Stadium, Bengaluru",702.0,588.0,8,83.76,64.67,54.42,75.14
+Royal Challengers Bengaluru vs Gujarat Titans,2025-04-02,"M Chinnaswamy Stadium, Bengaluru",719.5,564.0,7,78.39,54.9,75.61,35.51
+Royal Challengers Bengaluru vs Kolkata Knight Riders,2024-03-29,"M Chinnaswamy Stadium, Bengaluru",699.5,605.0,8,86.49,58.76,67.98,42.96
+Royal Challengers Bengaluru vs Mumbai Indians,2024-04-11,"Wankhede Stadium, Mumbai",897.0,736.5,8,82.11,64.94,61.26,59.81
+Royal Challengers Bengaluru vs Mumbai Indians,2025-04-07,"Wankhede Stadium, Mumbai",860.5,710.0,7,82.51,60.89,77.28,41.26
+Royal Challengers Bengaluru vs Punjab Kings,2024-05-09,"Himachal Pradesh Cricket Association Stadium, Dharamsala",929.0,921.5,11,99.19,68.95,78.2,39.18
+Royal Challengers Bengaluru vs Rajasthan Royals,2024-05-22,"Narendra Modi Stadium, Ahmedabad",609.0,494.0,8,81.12,62.15,81.44,63.63
+Royal Challengers Bengaluru vs Rajasthan Royals,2024-04-06,"Sawai Mansingh Stadium, Jaipur",851.5,759.5,9,89.2,75.1,88.26,52.85
+Royal Challengers Bengaluru vs Sunrisers Hyderabad,2024-04-25,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",699.0,475.5,7,68.03,54.43,70.17,32.4
+Sunrisers Hyderabad vs Chennai Super Kings,2023-04-21,"MA Chidambaram Stadium, Chepauk, Chennai",624.5,495.0,8,79.26,65.09,75.58,52.2
+Sunrisers Hyderabad vs Delhi Capitals,2023-04-29,"Arun Jaitley Stadium, Delhi",808.5,562.5,7,69.57,39.95,64.32,33.95
+Sunrisers Hyderabad vs Delhi Capitals,2024-04-20,"Arun Jaitley Stadium, Delhi",1010.0,973.0,10,96.34,46.34,78.02,30.2
+Sunrisers Hyderabad vs Delhi Capitals,2025-03-30,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",916.5,839.0,9,91.54,66.72,83.14,45.39
+Sunrisers Hyderabad vs Gujarat Titans,2024-03-31,"Narendra Modi Stadium, Ahmedabad",610.0,479.0,8,78.52,68.52,88.61,33.77
+Sunrisers Hyderabad vs Gujarat Titans,2025-04-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",736.0,652.0,8,88.59,60.6,63.45,47.08
+Sunrisers Hyderabad vs Kolkata Knight Riders,2023-04-14,"Eden Gardens, Kolkata",916.0,815.0,7,88.97,24.13,68.89,20.96
+Sunrisers Hyderabad vs Kolkata Knight Riders,2024-05-26,"MA Chidambaram Stadium, Chepauk, Chennai",585.5,472.5,7,80.7,67.98,74.21,71.22
+Sunrisers Hyderabad vs Kolkata Knight Riders,2024-05-21,"Narendra Modi Stadium, Ahmedabad",700.0,648.0,9,92.57,73.79,56.93,44.14
+Sunrisers Hyderabad vs Lucknow Super Giants,2023-04-07,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",561.0,478.0,8,85.2,54.63,54.81,63.64
+Sunrisers Hyderabad vs Lucknow Super Giants,2023-05-13,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",633.5,552.5,8,87.21,42.54,57.93,64.09
+Sunrisers Hyderabad vs Lucknow Super Giants,2025-03-27,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",777.0,649.0,6,83.53,63.26,74.84,31.47
+Sunrisers Hyderabad vs Mumbai Indians,2024-03-27,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",864.0,738.0,8,85.42,54.11,69.1,56.54
+Sunrisers Hyderabad vs Mumbai Indians,2023-05-21,"Wankhede Stadium, Mumbai",874.5,724.5,8,82.85,73.99,82.1,36.71
+Sunrisers Hyderabad vs Mumbai Indians,2024-05-06,"Wankhede Stadium, Mumbai",762.5,623.0,7,81.7,62.1,68.92,23.67
+Sunrisers Hyderabad vs Mumbai Indians,2025-04-17,"Wankhede Stadium, Mumbai",585.0,391.5,7,66.92,72.22,72.74,49.91
+Sunrisers Hyderabad vs Punjab Kings,2024-04-09,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",736.0,676.0,9,91.85,55.03,77.17,41.85
+Sunrisers Hyderabad vs Rajasthan Royals,2024-05-24,"MA Chidambaram Stadium, Chepauk, Chennai",838.5,652.0,7,77.76,56.71,63.33,32.74
+Sunrisers Hyderabad vs Rajasthan Royals,2024-05-02,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",868.5,736.0,9,84.74,52.5,83.13,27.63
+Sunrisers Hyderabad vs Rajasthan Royals,2025-03-23,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",999.5,778.5,8,77.89,46.27,70.09,34.17
+Sunrisers Hyderabad vs Royal Challengers Bangalore,2023-05-18,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",804.0,756.0,9,94.03,78.11,82.46,42.97
+Sunrisers Hyderabad vs Royal Challengers Bengaluru,2024-04-15,"M Chinnaswamy Stadium, Bengaluru",1003.0,953.0,10,95.01,51.3,84.2,52.59

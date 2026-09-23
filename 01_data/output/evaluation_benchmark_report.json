@@ -1,0 +1,43 @@
+{
+  "dataset_matches_evaluated": 178,
+  "regression_metrics": {
+    "batsman": {
+      "mae": 14.43,
+      "rmse": 21.62,
+      "pearson_r": 0.728,
+      "spearman_rho": 0.717
+    },
+    "bowler": {
+      "mae": 13.95,
+      "rmse": 19.89,
+      "pearson_r": 0.722,
+      "spearman_rho": 0.681
+    }
+  },
+  "comparative_benchmarks": {
+    "random": {
+      "avg_overlap": 4.65,
+      "avg_capture_pct": 43.39
+    },
+    "career_heuristic": {
+      "avg_overlap": 6.11,
+      "avg_capture_pct": 60.97
+    },
+    "recent_form_heuristic": {
+      "avg_overlap": 6.96,
+      "avg_capture_pct": 73.49
+    },
+    "xgboost_model": {
+      "avg_overlap": 7.92,
+      "avg_capture_pct": 84.2,
+      "captain_in_top3_pct": 69.1,
+      "vc_in_top5_pct": 69.7
+    }
+  },
+  "efficiency_insights": {
+    "gain_vs_random_pct": 94.0,
+    "gain_vs_career_pct": 38.1,
+    "gain_vs_form_pct": 14.6,
+    "problem_solved": "Fantasy cricket selection is an NP-hard combinatorial problem (picking 11 from 22-30 candidates with 5+ competing constraints). Human intuition over-weights fame or single-match bias. The multi-factor XGBoost optimizer synthesizes career consistency, rolling recent momentum, and venue pitch affinity to capture 84.2% of the theoretical maximum points."
+  }
+}

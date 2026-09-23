@@ -152,19 +152,43 @@ Script: `team_selector.py`
 - Compares predicted teams with actual top-performing players
 - Measures overlap and hypothetical points scored
 
-### 7. Interactive UI with Streamlit
+### 7. User Interfaces & Deployment
 
-Script: `app.py`
+The system provides two interfaces:
+1. **Interactive Streamlit Web Dashboard (`app.py`)**: For local exploration, live CricAPI updates, and Seaborn/Plotly EDA.
+2. **React + FastAPI Web Application (`src/` & `api/`)**: High-performance, responsive web application ready for one-click deployment on **Vercel**.
 
-- Launches a user-friendly web UI
-- Allows input of team names and venue
-- Outputs predicted best 11 players
-- Provides visual analytics (via EDA module)
+## Running Locally
 
-## Installation & Setup
-
+### Option A: Streamlit UI
 ```bash
-git clone https://github.com/your-username/cricket-fantasy-predictor.git
-cd cricket-fantasy-predictor
 pip install -r requirements.txt
 streamlit run app.py
+```
+
+### Option B: Modern React + FastAPI UI
+```bash
+# Terminal 1: Start FastAPI backend
+uvicorn api.index:app --reload --port 8000
+
+# Terminal 2: Start React frontend
+npm install
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Deployment on Vercel
+
+The repository is pre-configured with `vercel.json` to automatically serve the React frontend and deploy the FastAPI backend as a serverless function:
+
+1. **Push your code to GitHub**:
+   ```bash
+   git add .
+   git commit -m "Add React frontend and FastAPI backend for Vercel"
+   git push origin main
+   ```
+2. **Deploy on Vercel**:
+   - Go to [vercel.com](https://vercel.com) and click **"Add New Project"**.
+   - Select your GitHub repository (`Fantasy-11-Predictor`).
+   - Framework Preset will automatically detect **Vite**.
+   - Click **Deploy**!

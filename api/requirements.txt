@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+pandas
+xgboost
+joblib
+python-multipart
+requests

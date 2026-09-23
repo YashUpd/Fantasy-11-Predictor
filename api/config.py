@@ -4,13 +4,16 @@ from pathlib import Path
 API_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = API_DIR.parent
 
-# Feature definitions for ML models
+# Feature definitions for models
 BAT_FEATURES = ['career_avg', 'career_sr', 'last_5_avg', 'last_5_sr', 'venue_avg']
 BOWL_FEATURES = ['career_wickets', 'career_eco', 'last_5_wkts', 'venue_wickets']
 
-# Model file paths
-BAT_MODEL_PATH = PROJECT_ROOT / "03_models" / "batsman_model_xgb.pkl"
-BOWL_MODEL_PATH = PROJECT_ROOT / "03_models" / "bowler_model_xgb.pkl"
+# Model file paths (JSON models for ultra-lightweight serverless execution)
+BAT_MODEL_JSON_PATH = PROJECT_ROOT / "03_models" / "batsman_model.json"
+BOWL_MODEL_JSON_PATH = PROJECT_ROOT / "03_models" / "bowler_model.json"
+
+BAT_MODEL_PKL_PATH = PROJECT_ROOT / "03_models" / "batsman_model_xgb.pkl"
+BOWL_MODEL_PKL_PATH = PROJECT_ROOT / "03_models" / "bowler_model_xgb.pkl"
 
 # Data file paths
 SAMPLE_MATCH_PLAYERS_PATH = PROJECT_ROOT / "01_data" / "match_input" / "sample_match_players.csv"

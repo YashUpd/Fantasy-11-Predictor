@@ -1,0 +1,15 @@
+pandas
+numpy
+tqdm
+matplotlib
+seaborn
+plotly
+scikit-learn
+xgboost
+joblib
+streamlit
+requests
+python-dateutil
+fastapi
+uvicorn
+python-multipart

@@ -1,0 +1,14 @@
+01_data/raw_yamls/
+01_data/csv_matches/
+02_scripts/
+04_optimizer/
+05_visuals/
+.devcontainer/
+node_modules/
+requirements-local.txt
+app.py
+eda.py
+team_selector.py
+proj_dir.py
+project_structure.txt
+predicted_best_team.csv

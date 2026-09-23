@@ -1,12 +1,7 @@
+fastapi
+uvicorn
+pydantic
 pandas
 numpy
-tqdm
-matplotlib
-seaborn
-plotly
-scikit-learn
-xgboost
-joblib
-streamlit
+python-multipart
 requests
-python-dateutil

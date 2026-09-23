@@ -1,22 +1,79 @@
+import json
+import numpy as np
 import pandas as pd
-import joblib
 from typing import Dict, Any, Tuple
 
 try:
-    from api.config import BAT_MODEL_PATH, BOWL_MODEL_PATH, BAT_FEATURES, BOWL_FEATURES
+    from api.config import (
+        BAT_MODEL_JSON_PATH,
+        BOWL_MODEL_JSON_PATH,
+        BAT_MODEL_PKL_PATH,
+        BOWL_MODEL_PKL_PATH,
+        BAT_FEATURES,
+        BOWL_FEATURES,
+    )
 except ImportError:
-    from config import BAT_MODEL_PATH, BOWL_MODEL_PATH, BAT_FEATURES, BOWL_FEATURES
+    from config import (
+        BAT_MODEL_JSON_PATH,
+        BOWL_MODEL_JSON_PATH,
+        BAT_MODEL_PKL_PATH,
+        BOWL_MODEL_PKL_PATH,
+        BAT_FEATURES,
+        BOWL_FEATURES,
+    )
+
+class LightweightXGBPredictor:
+    """Fast, dependency-free tree ensemble evaluator for XGBoost JSON models."""
+    def __init__(self, json_path):
+        with open(json_path, 'r', encoding='utf-8') as f:
+            d = json.load(f)
+        raw_base = d['learner']['learner_model_param'].get('base_score', '0.5')
+        self.base_score = float(str(raw_base).strip('[]'))
+        self.trees = d['learner']['gradient_booster']['model']['trees']
+
+    def predict(self, X):
+        if hasattr(X, 'values'):
+            X = X.values
+        X = np.asarray(X, dtype=np.float32)
+        
+        preds = []
+        for row in X:
+            score = self.base_score
+            for tree in self.trees:
+                left = tree['left_children']
+                right = tree['right_children']
+                feats = tree['split_indices']
+                threshs = tree['split_conditions']
+                weights = tree['base_weights']
+                defaults = tree['default_left']
+                
+                node = 0
+                while left[node] != -1:
+                    val = row[feats[node]]
+                    if np.isnan(val):
+                        node = left[node] if defaults[node] else right[node]
+                    elif val < threshs[node]:
+                        node = left[node]
+                    else:
+                        node = right[node]
+                score += weights[node]
+            preds.append(score)
+        return np.array(preds, dtype=np.float32)
 
 _bat_model = None
 _bowl_model = None
 
 def get_models() -> Tuple[Any, Any]:
+    """Loads lightweight JSON predictors, or falls back to pkl if needed."""
     global _bat_model, _bowl_model
     if _bat_model is None or _bowl_model is None:
-        if not BAT_MODEL_PATH.exists() or not BOWL_MODEL_PATH.exists():
-            raise RuntimeError("Model files not found in 03_models directory.")
-        _bat_model = joblib.load(str(BAT_MODEL_PATH))
-        _bowl_model = joblib.load(str(BOWL_MODEL_PATH))
+        if BAT_MODEL_JSON_PATH.exists() and BOWL_MODEL_JSON_PATH.exists():
+            _bat_model = LightweightXGBPredictor(str(BAT_MODEL_JSON_PATH))
+            _bowl_model = LightweightXGBPredictor(str(BOWL_MODEL_JSON_PATH))
+        else:
+            import joblib
+            _bat_model = joblib.load(str(BAT_MODEL_PKL_PATH))
+            _bowl_model = joblib.load(str(BOWL_MODEL_PKL_PATH))
     return _bat_model, _bowl_model
 
 def select_best_11_logic(player_df: pd.DataFrame) -> pd.DataFrame:

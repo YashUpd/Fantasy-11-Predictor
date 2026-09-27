@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, MapPin, Bell, Check, Loader2, Radio } from 'lucide-react';
+import { Calendar, MapPin, Bell, Check, Loader2, Radio, Sparkles } from 'lucide-react';
 
-export default function MatchesView() {
+export default function MatchesView({ onSelectMatch }) {
   const [activeTab, setActiveTab] = useState('live');
   const [matches, setMatches] = useState({ live_matches: [], upcoming_matches: [] });
   const [loading, setLoading] = useState(true);
@@ -67,27 +67,38 @@ export default function MatchesView() {
           ) : (
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '18px' }}>
               {matches.live_matches.map((m, idx) => (
-                <div key={idx} className="glass-card match-card">
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-                    <span className="live-badge">
-                      <span className="live-indicator-dot"></span>
-                      IN PLAY
-                    </span>
-                    <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>{m.date || 'Today'}</span>
+                <div key={idx} className="glass-card match-card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                  <div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
+                      <span className="live-badge">
+                        <span className="live-indicator-dot"></span>
+                        IN PLAY
+                      </span>
+                      <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>{m.date || 'Today'}</span>
+                    </div>
+
+                    <h4 style={{ fontFamily: 'var(--font-heading)', fontSize: '16px', fontWeight: 700, marginBottom: '8px', color: 'var(--text-primary)' }}>
+                      {m.name}
+                    </h4>
+
+                    <div style={{ fontSize: '15px', fontWeight: 700, color: 'var(--accent-green)', marginBottom: '12px', letterSpacing: '-0.2px' }}>
+                      {m.status}
+                    </div>
+
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '16px' }}>
+                      <MapPin size={14} />
+                      <span>{m.venue}</span>
+                    </div>
                   </div>
 
-                  <h4 style={{ fontFamily: 'var(--font-heading)', fontSize: '16px', fontWeight: 700, marginBottom: '8px', color: '#fff' }}>
-                    {m.name}
-                  </h4>
-
-                  <div style={{ fontSize: '15px', fontWeight: 700, color: 'var(--accent-green)', marginBottom: '12px', letterSpacing: '-0.2px' }}>
-                    {m.status}
-                  </div>
-
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '12px', color: 'var(--text-secondary)' }}>
-                    <MapPin size={14} />
-                    <span>{m.venue}</span>
-                  </div>
+                  <button
+                    className="btn-primary"
+                    style={{ width: '100%', justifyContent: 'center', fontSize: '13px', padding: '10px' }}
+                    onClick={() => onSelectMatch && onSelectMatch(m.id)}
+                  >
+                    <Sparkles size={15} />
+                    <span>Fact-Check Squad & Form 11</span>
+                  </button>
                 </div>
               ))}
             </div>
@@ -104,33 +115,44 @@ export default function MatchesView() {
                   <th>Fixture</th>
                   <th>Scheduled Date</th>
                   <th>Venue</th>
-                  <th style={{ textAlign: 'right' }}>Alert</th>
+                  <th style={{ textAlign: 'right' }}>Actions</th>
                 </tr>
               </thead>
               <tbody>
                 {matches.upcoming_matches.map((m, idx) => (
                   <tr key={idx}>
-                    <td style={{ fontWeight: 600, color: '#fff' }}>{m.name}</td>
+                    <td style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{m.name}</td>
                     <td style={{ color: 'var(--accent-cyan)' }}>{m.date || 'Upcoming'}</td>
                     <td style={{ color: 'var(--text-secondary)' }}>{m.venue}</td>
                     <td style={{ textAlign: 'right' }}>
-                      <button
-                        className="btn-secondary"
-                        style={{ padding: '6px 12px', fontSize: '12px' }}
-                        onClick={() => toggleReminder(m.id || idx)}
-                      >
-                        {reminderSet[m.id || idx] ? (
-                          <>
-                            <Check size={14} style={{ color: 'var(--accent-green)' }} />
-                            <span style={{ color: 'var(--accent-green)' }}>Subscribed</span>
-                          </>
-                        ) : (
-                          <>
-                            <Bell size={14} />
-                            <span>Notify</span>
-                          </>
-                        )}
-                      </button>
+                      <div style={{ display: 'inline-flex', gap: '8px' }}>
+                        <button
+                          className="btn-primary"
+                          style={{ padding: '6px 12px', fontSize: '12px' }}
+                          onClick={() => onSelectMatch && onSelectMatch(m.id)}
+                        >
+                          <Sparkles size={13} />
+                          <span>Form 11</span>
+                        </button>
+
+                        <button
+                          className="btn-secondary"
+                          style={{ padding: '6px 12px', fontSize: '12px' }}
+                          onClick={() => toggleReminder(m.id || idx)}
+                        >
+                          {reminderSet[m.id || idx] ? (
+                            <>
+                              <Check size={14} style={{ color: 'var(--accent-green)' }} />
+                              <span style={{ color: 'var(--accent-green)' }}>Subscribed</span>
+                            </>
+                          ) : (
+                            <>
+                              <Bell size={14} />
+                              <span>Notify</span>
+                            </>
+                          )}
+                        </button>
+                      </div>
                     </td>
                   </tr>
                 ))}

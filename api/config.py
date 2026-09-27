@@ -19,6 +19,9 @@ BOWL_MODEL_PKL_PATH = PROJECT_ROOT / "03_models" / "bowler_model_xgb.pkl"
 SAMPLE_MATCH_PLAYERS_PATH = PROJECT_ROOT / "01_data" / "match_input" / "sample_match_players.csv"
 BATSMAN_D11_CSV = PROJECT_ROOT / "01_data" / "processed" / "batsman_d11.csv"
 BOWLER_D11_CSV = PROJECT_ROOT / "01_data" / "processed" / "bowler_d11.csv"
+BATSMAN_FEATURES_CSV = PROJECT_ROOT / "01_data" / "processed" / "batsman_features.csv"
+BOWLER_FEATURES_CSV = PROJECT_ROOT / "01_data" / "processed" / "bowler_features.csv"
+
 
 # External API configuration
 CRIC_API_KEY = "02612d40-b143-4bbb-b68e-b6d26732a66e"

@@ -76,69 +76,157 @@ def get_models() -> Tuple[Any, Any]:
             _bowl_model = joblib.load(str(BOWL_MODEL_PKL_PATH))
     return _bat_model, _bowl_model
 
-def select_best_11_logic(player_df: pd.DataFrame) -> pd.DataFrame:
-    """Enforces official Dream11 fantasy rules and selects optimal 11."""
-    players = player_df.sort_values(by='predicted_points', ascending=False)
-    
+def select_best_11_logic(
+    player_df: pd.DataFrame,
+    locked_players: list = None,
+    excluded_players: list = None,
+    preferred_captain: str = None,
+    preferred_vice_captain: str = None
+) -> pd.DataFrame:
+    """Enforces official Dream11 fantasy rules while integrating human-in-the-loop fact checking."""
+    locked_set = {str(p).strip().lower() for p in (locked_players or [])}
+    excluded_set = {str(p).strip().lower() for p in (excluded_players or [])}
+
+    players = player_df.sort_values(by='predicted_points', ascending=False).copy()
     final_team = []
     team_count = {}
-    batsmen, bowlers, allrounders, wicketkeepers = 0, 0, 0, 0
+    role_count = {'batsman': 0, 'bowler': 0, 'allrounder': 0, 'wicketkeeper': 0}
+    picked_names = set()
 
+    # Step 1: Force add locked players first (Human-in-the-loop priority)
     for _, row in players.iterrows():
-        team = row.get('team1') or row.get('team') or 'Unknown'
-        team_count.setdefault(team, 0)
+        pname = str(row.get('name', '')).strip().lower()
+        if pname in locked_set:
+            team = row.get('team1') or row.get('team') or 'Unknown'
+            role = str(row.get('role', '')).lower()
+            role_key = role if role in role_count else 'batsman'
 
-        role = str(row.get('role', '')).lower()
-        if team_count[team] >= 7:
-            continue
-        if role == 'batsman' and batsmen >= 5:
-            continue
-        if role == 'bowler' and bowlers >= 5:
-            continue
-        if role == 'wicketkeeper' and wicketkeepers >= 1:
-            continue
-        if role == 'allrounder' and allrounders >= 3:
-            continue
+            p_dict = row.to_dict()
+            p_dict['is_locked'] = True
+            final_team.append(p_dict)
+            picked_names.add(pname)
+            team_count[team] = team_count.get(team, 0) + 1
+            role_count[role_key] = role_count.get(role_key, 0) + 1
 
-        if role == 'batsman':
-            batsmen += 1
-        elif role == 'bowler':
-            bowlers += 1
-        elif role == 'allrounder':
-            allrounders += 1
-        elif role == 'wicketkeeper':
-            wicketkeepers += 1
-
-        final_team.append(row.to_dict())
-        team_count[team] += 1
-
-        if len(final_team) == 11:
+    # Step 2: Fill remaining slots with optimal candidates respecting constraints
+    for _, row in players.iterrows():
+        if len(final_team) >= 11:
             break
 
-    # If strict constraints didn't fill 11, backfill with top remaining players
+        pname = str(row.get('name', '')).strip().lower()
+        if pname in picked_names or (pname in excluded_set and pname not in locked_set):
+            continue
+
+        team = row.get('team1') or row.get('team') or 'Unknown'
+        role = str(row.get('role', '')).lower()
+        role_key = role if role in role_count else 'batsman'
+
+        # Dream11 official bounds
+        if team_count.get(team, 0) >= 7:
+            continue
+        if role_key == 'batsman' and role_count['batsman'] >= 6:
+            continue
+        if role_key == 'bowler' and role_count['bowler'] >= 6:
+            continue
+        if role_key == 'allrounder' and role_count['allrounder'] >= 4:
+            continue
+        if role_key == 'wicketkeeper' and role_count['wicketkeeper'] >= 4:
+            continue
+
+        p_dict = row.to_dict()
+        p_dict['is_locked'] = False
+        final_team.append(p_dict)
+        picked_names.add(pname)
+        team_count[team] = team_count.get(team, 0) + 1
+        role_count[role_key] = role_count.get(role_key, 0) + 1
+
+    # Ensure minimum 1 Wicket-Keeper if none selected yet and candidates exist
+    if role_count['wicketkeeper'] == 0:
+        wk_candidates = players[
+            (players['role'].str.lower() == 'wicketkeeper') & 
+            (~players['name'].str.lower().isin(picked_names)) &
+            (~players['name'].str.lower().isin(excluded_set))
+        ]
+        if not wk_candidates.empty and len(final_team) == 11:
+            for idx in reversed(range(len(final_team))):
+                if not final_team[idx].get('is_locked', False) and final_team[idx].get('role') != 'wicketkeeper':
+                    wk_pick = wk_candidates.iloc[0].to_dict()
+                    wk_pick['is_locked'] = False
+                    final_team[idx] = wk_pick
+                    break
+
+    # If still under 11, backfill from non-excluded pool
     if len(final_team) < 11:
-        picked_names = {p.get('name') for p in final_team}
         for _, row in players.iterrows():
-            if row.get('name') not in picked_names:
-                final_team.append(row.to_dict())
-                picked_names.add(row.get('name'))
+            pname = str(row.get('name', '')).strip().lower()
+            if pname not in picked_names and pname not in excluded_set:
+                p_dict = row.to_dict()
+                p_dict['is_locked'] = False
+                final_team.append(p_dict)
+                picked_names.add(pname)
                 if len(final_team) == 11:
                     break
 
     res_df = pd.DataFrame(final_team)
     if not res_df.empty:
-        # Assign Captain (highest points) and Vice-Captain (2nd highest points)
         res_df = res_df.sort_values(by='predicted_points', ascending=False).reset_index(drop=True)
         res_df['is_captain'] = False
         res_df['is_vice_captain'] = False
-        if len(res_df) > 0:
-            res_df.loc[0, 'is_captain'] = True
-        if len(res_df) > 1:
-            res_df.loc[1, 'is_vice_captain'] = True
+
+        # Captain assignment
+        c_idx = 0
+        if preferred_captain:
+            c_name_lower = preferred_captain.strip().lower()
+            matches = res_df.index[res_df['name'].str.lower() == c_name_lower].tolist()
+            if matches:
+                c_idx = matches[0]
+
+        res_df.loc[c_idx, 'is_captain'] = True
+
+        # Vice-captain assignment
+        vc_idx = 1 if len(res_df) > 1 and c_idx != 1 else (0 if len(res_df) == 1 else 1)
+        if preferred_vice_captain:
+            vc_name_lower = preferred_vice_captain.strip().lower()
+            matches = res_df.index[(res_df['name'].str.lower() == vc_name_lower) & (res_df.index != c_idx)].tolist()
+            if matches:
+                vc_idx = matches[0]
+        elif len(res_df) > 1:
+            for idx in res_df.index:
+                if idx != c_idx:
+                    vc_idx = idx
+                    break
+
+        if len(res_df) > 1 and vc_idx != c_idx:
+            res_df.loc[vc_idx, 'is_vice_captain'] = True
+
     return res_df
 
-def predict_team_pipeline(df: pd.DataFrame) -> Dict[str, Any]:
-    """Runs regression models, selects 11, computes multipliers and metrics."""
+def clean_records_for_json(records: list) -> list:
+    """Replaces NaNs, Infinities, and numpy datatypes with standard JSON-compliant primitives."""
+    cleaned = []
+    for r in records:
+        clean_row = {}
+        for k, v in r.items():
+            if v is None or pd.isna(v):
+                clean_row[k] = None
+            elif isinstance(v, (np.integer, np.int64)):
+                clean_row[k] = int(v)
+            elif isinstance(v, (np.floating, np.float64, np.float32)):
+                clean_row[k] = 0.0 if np.isnan(v) or np.isinf(v) else round(float(v), 2)
+            else:
+                clean_row[k] = v
+        cleaned.append(clean_row)
+    return cleaned
+
+def predict_team_pipeline(
+    df: pd.DataFrame,
+    locked_players: list = None,
+    excluded_players: list = None,
+    preferred_captain: str = None,
+    preferred_vice_captain: str = None
+) -> Dict[str, Any]:
+
+    """Runs regression models, selects 11 with human constraints, computes multipliers and metrics."""
     bat_model, bowl_model = get_models()
 
     # Standardize column names
@@ -172,8 +260,14 @@ def predict_team_pipeline(df: pd.DataFrame) -> Dict[str, Any]:
     all_players = pd.concat([batsmen_df, bowlers_df, allrounders_df, wicketkeepers_df], ignore_index=True)
     all_players['predicted_points'] = all_players['predicted_points'].round(2)
 
-    # Select best 11 with Dream11 constraints
-    best_11 = select_best_11_logic(all_players)
+    # Select best 11 with Dream11 constraints & human preferences
+    best_11 = select_best_11_logic(
+        all_players,
+        locked_players=locked_players,
+        excluded_players=excluded_players,
+        preferred_captain=preferred_captain,
+        preferred_vice_captain=preferred_vice_captain
+    )
 
     total_dream11_points = 0.0
     role_counts = {"batsman": 0, "bowler": 0, "allrounder": 0, "wicketkeeper": 0}
@@ -199,16 +293,23 @@ def predict_team_pipeline(df: pd.DataFrame) -> Dict[str, Any]:
 
         best_11_list.append(p_dict)
 
+    c_name = next((p['name'] for p in best_11_list if p.get('is_captain')), None) or (best_11_list[0]['name'] if best_11_list else None)
+    vc_name = next((p['name'] for p in best_11_list if p.get('is_vice_captain')), None) or (best_11_list[1]['name'] if len(best_11_list) > 1 else None)
+
     return {
         "success": True,
         "total_players": len(all_players),
-        "best_11": best_11_list,
-        "all_players": all_players.sort_values(by='predicted_points', ascending=False).to_dict(orient="records"),
+        "best_11": clean_records_for_json(best_11_list),
+        "all_players": clean_records_for_json(all_players.sort_values(by='predicted_points', ascending=False).to_dict(orient="records")),
         "stats": {
             "total_points": round(total_dream11_points, 2),
             "role_breakdown": role_counts,
             "team_breakdown": team_counts,
-            "captain": best_11_list[0]['name'] if best_11_list else None,
-            "vice_captain": best_11_list[1]['name'] if len(best_11_list) > 1 else None
+            "captain": c_name,
+            "vice_captain": vc_name,
+            "locked_count": sum(1 for p in best_11_list if p.get('is_locked'))
         }
     }
+
+
+

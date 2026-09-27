@@ -25,6 +25,10 @@ async def predict_team(request: Request, file: Optional[UploadFile] = File(None)
     """Receives a match player CSV or JSON (or uses default sample) and returns optimal Dream11 team."""
     try:
         df = None
+        locked_players = []
+        excluded_players = []
+        preferred_captain = None
+        preferred_vice_captain = None
 
         # 1. Check for file upload
         if file is not None and getattr(file, 'filename', None):
@@ -44,8 +48,13 @@ async def predict_team(request: Request, file: Optional[UploadFile] = File(None)
                     body = await request.json()
                     if isinstance(body, list):
                         df = pd.DataFrame(body)
-                    elif isinstance(body, dict) and "players" in body:
-                        df = pd.DataFrame(body["players"])
+                    elif isinstance(body, dict):
+                        if "players" in body:
+                            df = pd.DataFrame(body["players"])
+                        locked_players = body.get("locked_players", [])
+                        excluded_players = body.get("excluded_players", [])
+                        preferred_captain = body.get("preferred_captain")
+                        preferred_vice_captain = body.get("preferred_vice_captain")
                 except Exception:
                     pass
 
@@ -55,9 +64,16 @@ async def predict_team(request: Request, file: Optional[UploadFile] = File(None)
                 raise HTTPException(status_code=404, detail="sample_match_players.csv not found.")
             df = pd.read_csv(SAMPLE_MATCH_PLAYERS_PATH)
 
-        return predict_team_pipeline(df)
+        return predict_team_pipeline(
+            df,
+            locked_players=locked_players,
+            excluded_players=excluded_players,
+            preferred_captain=preferred_captain,
+            preferred_vice_captain=preferred_vice_captain
+        )
     except HTTPException:
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
 

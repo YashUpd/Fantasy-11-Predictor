@@ -179,11 +179,11 @@ export default function AnalyticsView() {
                   <span>Bowling Spearman Rank Correlation (ρ)</span>
                   <span style={{ fontWeight: 700, color: 'var(--accent-green)' }}>{evalData.regression_metrics?.bowler?.spearman_rho}</span>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: 'rgba(255, 255, 255, 0.03)', borderRadius: '6px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: 'var(--pill-bg)', borderRadius: '6px' }}>
                   <span>Batting Mean Absolute Error (MAE)</span>
                   <span style={{ fontWeight: 700, color: 'var(--text-secondary)' }}>±{evalData.regression_metrics?.batsman?.mae} pts</span>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: 'rgba(255, 255, 255, 0.03)', borderRadius: '6px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: 'var(--pill-bg)', borderRadius: '6px' }}>
                   <span>Bowling Mean Absolute Error (MAE)</span>
                   <span style={{ fontWeight: 700, color: 'var(--text-secondary)' }}>±{evalData.regression_metrics?.bowler?.mae} pts</span>
                 </div>
@@ -196,13 +196,13 @@ export default function AnalyticsView() {
               </h4>
               <ul style={{ fontSize: '13px', color: 'var(--text-secondary)', lineHeight: 1.6, paddingLeft: '18px' }}>
                 <li style={{ marginBottom: '8px' }}>
-                  <strong style={{ color: '#fff' }}>Eliminates Human Cognitive Biases:</strong> Human users routinely over-index on player star power or single-match recency, overlooking venue pitch conditions.
+                  <strong style={{ color: 'var(--text-primary)' }}>Eliminates Human Cognitive Biases:</strong> Human users routinely over-index on player star power or single-match recency, overlooking venue pitch conditions.
                 </li>
                 <li style={{ marginBottom: '8px' }}>
-                  <strong style={{ color: '#fff' }}>Solves Combinatorial Constraint Optimization:</strong> Selecting 11 from 22–30 active players with 5+ competing constraints creates over 700,000 combinations. The engine evaluates all candidates simultaneously in &lt; 2 milliseconds.
+                  <strong style={{ color: 'var(--text-primary)' }}>Solves Combinatorial Constraint Optimization:</strong> Selecting 11 from 22–30 active players with 5+ competing constraints creates over 700,000 combinations. The engine evaluates all candidates simultaneously in &lt; 2 milliseconds.
                 </li>
                 <li>
-                  <strong style={{ color: '#fff' }}>Maximizes Multiplier Leverage:</strong> With 69.1% accuracy placing the Captain in the actual top 3 scorers, the 2x multiplier drives outsized fantasy tournament rankings.
+                  <strong style={{ color: 'var(--text-primary)' }}>Maximizes Multiplier Leverage:</strong> With 69.1% accuracy placing the Captain in the actual top 3 scorers, the 2x multiplier drives outsized fantasy tournament rankings.
                 </li>
               </ul>
             </div>

@@ -14,7 +14,7 @@ def get_directory_structure(root_dir, output_file, indent='', exclude_dirs=None,
     - exclude_extensions: List of file extensions to exclude
     """
     if exclude_dirs is None:
-        exclude_dirs = ['.git', '__pycache__', 'venv', 'env', '.ipynb_checkpoints', 'node_modules']
+        exclude_dirs = ['.git', '__pycache__', 'venv', '.venv', 'env', '.ipynb_checkpoints', 'node_modules', 'dist']
     
     if exclude_extensions is None:
         exclude_extensions = ['.pyc']

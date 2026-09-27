@@ -5,6 +5,8 @@
 05_visuals/
 .devcontainer/
 node_modules/
+.venv/
+venv/
 requirements-local.txt
 app.py
 eda.py
@@ -12,3 +14,4 @@ team_selector.py
 proj_dir.py
 project_structure.txt
 predicted_best_team.csv
+03_models/*.pkl

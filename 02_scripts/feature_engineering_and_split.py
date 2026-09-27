@@ -1,5 +1,10 @@
-import pandas as pd
+import sys
 import os
+import pandas as pd
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
 
 def engineer_batsman_features(csv_path: str, output_path: str):
     df = pd.read_csv(csv_path)

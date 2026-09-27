@@ -1,3 +1,5 @@
+import sys
+import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import (
@@ -8,6 +10,9 @@ from sklearn.metrics import (
 )
 import joblib
 import os
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 def train_and_evaluate(train_path, test_path, features, target, model_output_path):
     # Load data
@@ -28,7 +33,7 @@ def train_and_evaluate(train_path, test_path, features, target, model_output_pat
     y_pred = model.predict(X_test)
 
     # Evaluation metrics
-    rmse = mean_squared_error(y_test, y_pred, squared=False)
+    rmse = float(np.sqrt(mean_squared_error(y_test, y_pred)))
     mae = mean_absolute_error(y_test, y_pred)
     r2 = r2_score(y_test, y_pred)
     explained_var = explained_variance_score(y_test, y_pred)

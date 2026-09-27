@@ -1,13 +1,1144 @@
-Project Structure for: C:\Users\boxer\Desktop\PROJ_ML
+Project Structure for: D:\MY_PROJECTS\fantasy11cricketteamprediction-main
 ================================================================================
 
-
+│   └── devcontainer.json
+│   │   ├── Chennai Super Kings-Deccan Chargers-2008-05-06.csv
+│   │   ├── Chennai Super Kings-Deccan Chargers-2009-04-27.csv
+│   │   ├── Chennai Super Kings-Deccan Chargers-2009-05-04.csv
+│   │   ├── Chennai Super Kings-Deccan Chargers-2010-03-14.csv
+│   │   ├── Chennai Super Kings-Deccan Chargers-2010-04-22.csv
+│   │   ├── Chennai Super Kings-Deccan Chargers-2011-05-01.csv
+│   │   ├── Chennai Super Kings-Deccan Chargers-2012-05-04.csv
+│   │   ├── Chennai Super Kings-Delhi Capitals-2019-05-01.csv
+│   │   ├── Chennai Super Kings-Delhi Capitals-2020-10-17.csv
+│   │   ├── Chennai Super Kings-Delhi Capitals-2021-04-10.csv
+│   │   ├── Chennai Super Kings-Delhi Capitals-2021-10-04.csv
+│   │   ├── Chennai Super Kings-Delhi Capitals-2022-05-08.csv
+│   │   ├── Chennai Super Kings-Delhi Capitals-2023-05-10.csv
+│   │   ├── Chennai Super Kings-Delhi Capitals-2023-05-20.csv
+│   │   ├── Chennai Super Kings-Delhi Daredevils-2008-05-02.csv
+│   │   ├── Chennai Super Kings-Delhi Daredevils-2009-04-23.csv
+│   │   ├── Chennai Super Kings-Delhi Daredevils-2009-05-02.csv
+│   │   ├── Chennai Super Kings-Delhi Daredevils-2010-04-15.csv
+│   │   ├── Chennai Super Kings-Delhi Daredevils-2011-05-12.csv
+│   │   ├── Chennai Super Kings-Delhi Daredevils-2012-05-12.csv
+│   │   ├── Chennai Super Kings-Delhi Daredevils-2013-05-14.csv
+│   │   ├── Chennai Super Kings-Delhi Daredevils-2014-04-21.csv
+│   │   ├── Chennai Super Kings-Delhi Daredevils-2015-04-09.csv
+│   │   ├── Chennai Super Kings-Delhi Daredevils-2018-04-30.csv
+│   │   ├── Chennai Super Kings-Gujarat Titans-2022-04-17.csv
+│   │   ├── Chennai Super Kings-Gujarat Titans-2022-05-15.csv
+│   │   ├── Chennai Super Kings-Gujarat Titans-2023-03-31.csv
+│   │   ├── Chennai Super Kings-Gujarat Titans-2023-05-23.csv
+│   │   ├── Chennai Super Kings-Gujarat Titans-2024-03-26.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2008-05-10.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2008-05-31.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2009-05-07.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2009-05-20.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2010-03-21.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2012-04-28.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2013-05-02.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2014-04-18.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2014-05-30.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2015-04-25.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2019-04-06.csv
+│   │   ├── Chennai Super Kings-Kings XI Punjab-2019-05-05.csv
+│   │   ├── Chennai Super Kings-Kochi Tuskers Kerala-2011-05-18.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2008-04-26.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2009-05-18.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2010-04-13.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2011-04-08.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2012-04-30.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2013-04-28.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2014-05-02.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2015-04-28.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2018-05-03.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2021-04-21.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2021-10-15.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2022-03-26.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2023-04-23.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2023-05-14.csv
+│   │   ├── Chennai Super Kings-Kolkata Knight Riders-2025-04-11.csv
+│   │   ├── Chennai Super Kings-Lucknow Super Giants-2022-03-31.csv
+│   │   ├── Chennai Super Kings-Lucknow Super Giants-2023-04-03.csv
+│   │   ├── Chennai Super Kings-Lucknow Super Giants-2024-04-19.csv
+│   │   ├── Chennai Super Kings-Lucknow Super Giants-2024-04-23.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2008-04-23.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2009-04-18.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2009-05-16.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2010-03-25.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2010-04-06.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2010-04-25.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2012-04-04.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2012-05-23.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2013-04-06.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2013-05-21.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2013-05-26.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2014-04-25.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2014-05-28.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2015-05-08.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2015-05-19.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2018-04-28.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2019-05-07.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2020-10-23.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2021-05-01.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2021-09-19.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2022-05-12.csv
+│   │   ├── Chennai Super Kings-Mumbai Indians-2024-04-14.csv
+│   │   ├── Chennai Super Kings-Pune Warriors-2011-04-25.csv
+│   │   ├── Chennai Super Kings-Pune Warriors-2012-04-19.csv
+│   │   ├── Chennai Super Kings-Pune Warriors-2013-04-15.csv
+│   │   ├── Chennai Super Kings-Punjab Kings-2021-10-07.csv
+│   │   ├── Chennai Super Kings-Punjab Kings-2023-04-30.csv
+│   │   ├── Chennai Super Kings-Punjab Kings-2024-05-01.csv
+│   │   ├── Chennai Super Kings-Punjab Kings-2024-05-05.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2008-05-24.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2008-06-01.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2009-04-30.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2009-05-09.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2010-04-03.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2011-05-04.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2012-04-21.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2013-04-22.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2014-05-13.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2015-05-10.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2018-04-20.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2018-05-11.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2019-03-31.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2020-10-19.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2021-04-19.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2021-10-02.csv
+│   │   ├── Chennai Super Kings-Rajasthan Royals-2022-05-20.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2008-05-21.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2010-03-31.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2011-04-16.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2011-05-28.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2012-04-12.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2013-04-13.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2014-05-18.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2015-05-04.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2015-05-22.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2021-04-25.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2022-04-12.csv
+│   │   ├── Chennai Super Kings-Royal Challengers Bangalore-2023-04-17.csv
+│   │   ├── Chennai Super Kings-Sunrisers Hyderabad-2013-04-25.csv
+│   │   ├── Chennai Super Kings-Sunrisers Hyderabad-2014-05-22.csv
+│   │   ├── Chennai Super Kings-Sunrisers Hyderabad-2015-04-11.csv
+│   │   ├── Chennai Super Kings-Sunrisers Hyderabad-2018-04-22.csv
+│   │   ├── Chennai Super Kings-Sunrisers Hyderabad-2019-04-17.csv
+│   │   ├── Chennai Super Kings-Sunrisers Hyderabad-2020-10-13.csv
+│   │   ├── Chennai Super Kings-Sunrisers Hyderabad-2022-04-09.csv
+│   │   ├── Chennai Super Kings-Sunrisers Hyderabad-2022-05-01.csv
+│   │   ├── Chennai Super Kings-Sunrisers Hyderabad-2024-04-05.csv
+│   │   ├── Chennai Super Kings-Sunrisers Hyderabad-2024-04-28.csv
+│   │   ├── Deccan Chargers-Chennai Super Kings-2008-05-27.csv
+│   │   ├── Deccan Chargers-Chennai Super Kings-2010-04-10.csv
+│   │   ├── Deccan Chargers-Chennai Super Kings-2012-04-07.csv
+│   │   ├── Deccan Chargers-Delhi Daredevils-2008-04-22.csv
+│   │   ├── Deccan Chargers-Delhi Daredevils-2009-04-30.csv
+│   │   ├── Deccan Chargers-Delhi Daredevils-2009-05-13.csv
+│   │   ├── Deccan Chargers-Delhi Daredevils-2010-03-21.csv
+│   │   ├── Deccan Chargers-Delhi Daredevils-2011-05-05.csv
+│   │   ├── Deccan Chargers-Delhi Daredevils-2012-05-10.csv
+│   │   ├── Deccan Chargers-Kings XI Punjab-2008-05-01.csv
+│   │   ├── Deccan Chargers-Kings XI Punjab-2009-05-09.csv
+│   │   ├── Deccan Chargers-Kings XI Punjab-2009-05-17.csv
+│   │   ├── Deccan Chargers-Kings XI Punjab-2010-03-19.csv
+│   │   ├── Deccan Chargers-Kings XI Punjab-2011-04-16.csv
+│   │   ├── Deccan Chargers-Kings XI Punjab-2012-05-08.csv
+│   │   ├── Deccan Chargers-Kolkata Knight Riders-2008-05-11.csv
+│   │   ├── Deccan Chargers-Kolkata Knight Riders-2009-04-19.csv
+│   │   ├── Deccan Chargers-Kolkata Knight Riders-2009-05-16.csv
+│   │   ├── Deccan Chargers-Kolkata Knight Riders-2010-03-12.csv
+│   │   ├── Deccan Chargers-Kolkata Knight Riders-2011-05-03.csv
+│   │   ├── Deccan Chargers-Kolkata Knight Riders-2012-04-22.csv
+│   │   ├── Deccan Chargers-Mumbai Indians-2008-05-18.csv
+│   │   ├── Deccan Chargers-Mumbai Indians-2009-04-25.csv
+│   │   ├── Deccan Chargers-Mumbai Indians-2009-05-06.csv
+│   │   ├── Deccan Chargers-Mumbai Indians-2010-03-28.csv
+│   │   ├── Deccan Chargers-Mumbai Indians-2011-04-24.csv
+│   │   ├── Deccan Chargers-Mumbai Indians-2012-04-09.csv
+│   │   ├── Deccan Chargers-Pune Warriors-2011-05-10.csv
+│   │   ├── Deccan Chargers-Pune Warriors-2012-05-01.csv
+│   │   ├── Deccan Chargers-Rajasthan Royals-2008-04-24.csv
+│   │   ├── Deccan Chargers-Rajasthan Royals-2009-05-02.csv
+│   │   ├── Deccan Chargers-Rajasthan Royals-2009-05-11.csv
+│   │   ├── Deccan Chargers-Rajasthan Royals-2010-04-05.csv
+│   │   ├── Deccan Chargers-Rajasthan Royals-2011-04-09.csv
+│   │   ├── Deccan Chargers-Rajasthan Royals-2012-05-18.csv
+│   │   ├── Deccan Chargers-Royal Challengers Bangalore-2008-05-25.csv
+│   │   ├── Deccan Chargers-Royal Challengers Bangalore-2010-04-12.csv
+│   │   ├── Deccan Chargers-Royal Challengers Bangalore-2011-04-14.csv
+│   │   ├── Deccan Chargers-Royal Challengers Bangalore-2012-05-20.csv
+│   │   ├── Delhi Capitals-Chennai Super Kings-2019-03-26.csv
+│   │   ├── Delhi Capitals-Chennai Super Kings-2019-05-10.csv
+│   │   ├── Delhi Capitals-Chennai Super Kings-2020-09-25.csv
+│   │   ├── Delhi Capitals-Chennai Super Kings-2021-10-10.csv
+│   │   ├── Delhi Capitals-Chennai Super Kings-2024-03-31.csv
+│   │   ├── Delhi Capitals-Chennai Super Kings-2025-04-05.csv
+│   │   ├── Delhi Capitals-Gujarat Titans-2023-04-04.csv
+│   │   ├── Delhi Capitals-Gujarat Titans-2023-05-02.csv
+│   │   ├── Delhi Capitals-Gujarat Titans-2024-04-24.csv
+│   │   ├── Delhi Capitals-Kings XI Punjab-2020-09-20.csv
+│   │   ├── Delhi Capitals-Kings XI Punjab-2020-10-20.csv
+│   │   ├── Delhi Capitals-Kolkata Knight Riders-2020-10-03.csv
+│   │   ├── Delhi Capitals-Kolkata Knight Riders-2021-09-28.csv
+│   │   ├── Delhi Capitals-Kolkata Knight Riders-2021-10-13.csv
+│   │   ├── Delhi Capitals-Kolkata Knight Riders-2022-04-10.csv
+│   │   ├── Delhi Capitals-Kolkata Knight Riders-2024-04-29.csv
+│   │   ├── Delhi Capitals-Lucknow Super Giants-2022-04-07.csv
+│   │   ├── Delhi Capitals-Lucknow Super Giants-2024-05-14.csv
+│   │   ├── Delhi Capitals-Mumbai Indians-2019-03-24.csv
+│   │   ├── Delhi Capitals-Mumbai Indians-2020-10-11.csv
+│   │   ├── Delhi Capitals-Mumbai Indians-2020-10-31.csv
+│   │   ├── Delhi Capitals-Mumbai Indians-2020-11-10.csv
+│   │   ├── Delhi Capitals-Mumbai Indians-2022-05-21.csv
+│   │   ├── Delhi Capitals-Mumbai Indians-2023-04-11.csv
+│   │   ├── Delhi Capitals-Mumbai Indians-2024-04-27.csv
+│   │   ├── Delhi Capitals-Punjab Kings-2022-05-16.csv
+│   │   ├── Delhi Capitals-Punjab Kings-2023-05-17.csv
+│   │   ├── Delhi Capitals-Punjab Kings-2024-03-23.csv
+│   │   ├── Delhi Capitals-Rajasthan Royals-2020-10-09.csv
+│   │   ├── Delhi Capitals-Rajasthan Royals-2020-10-14.csv
+│   │   ├── Delhi Capitals-Rajasthan Royals-2021-04-15.csv
+│   │   ├── Delhi Capitals-Rajasthan Royals-2021-09-25.csv
+│   │   ├── Delhi Capitals-Rajasthan Royals-2024-05-07.csv
+│   │   ├── Delhi Capitals-Rajasthan Royals-2025-04-16.csv
+│   │   ├── Delhi Capitals-Royal Challengers Bangalore-2019-04-28.csv
+│   │   ├── Delhi Capitals-Royal Challengers Bangalore-2020-10-05.csv
+│   │   ├── Delhi Capitals-Royal Challengers Bangalore-2021-10-08.csv
+│   │   ├── Delhi Capitals-Sunrisers Hyderabad-2019-04-04.csv
+│   │   ├── Delhi Capitals-Sunrisers Hyderabad-2019-04-14.csv
+│   │   ├── Delhi Capitals-Sunrisers Hyderabad-2020-11-08.csv
+│   │   ├── Delhi Capitals-Sunrisers Hyderabad-2021-04-25.csv
+│   │   ├── Delhi Capitals-Sunrisers Hyderabad-2022-05-05.csv
+│   │   ├── Delhi Capitals-Sunrisers Hyderabad-2023-04-24.csv
+│   │   ├── Delhi Daredevils-Chennai Super Kings-2008-05-08.csv
+│   │   ├── Delhi Daredevils-Chennai Super Kings-2010-03-19.csv
+│   │   ├── Delhi Daredevils-Chennai Super Kings-2012-04-10.csv
+│   │   ├── Delhi Daredevils-Chennai Super Kings-2012-05-25.csv
+│   │   ├── Delhi Daredevils-Chennai Super Kings-2013-04-18.csv
+│   │   ├── Delhi Daredevils-Chennai Super Kings-2014-05-05.csv
+│   │   ├── Delhi Daredevils-Chennai Super Kings-2015-05-12.csv
+│   │   ├── Delhi Daredevils-Chennai Super Kings-2018-05-18.csv
+│   │   ├── Delhi Daredevils-Deccan Chargers-2008-05-15.csv
+│   │   ├── Delhi Daredevils-Deccan Chargers-2009-05-22.csv
+│   │   ├── Delhi Daredevils-Deccan Chargers-2010-04-18.csv
+│   │   ├── Delhi Daredevils-Deccan Chargers-2011-04-19.csv
+│   │   ├── Delhi Daredevils-Deccan Chargers-2012-04-19.csv
+│   │   ├── Delhi Daredevils-Gujarat Lions-2016-04-27.csv
+│   │   ├── Delhi Daredevils-Gujarat Lions-2017-05-04.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2008-05-17.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2009-04-19.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2009-05-15.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2010-04-11.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2011-04-23.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2012-05-15.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2013-04-23.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2014-05-19.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2015-05-01.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2016-04-15.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2017-04-15.csv
+│   │   ├── Delhi Daredevils-Kings XI Punjab-2018-04-08.csv
+│   │   ├── Delhi Daredevils-Kochi Tuskers Kerala-2011-05-02.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2009-05-05.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2009-05-10.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2010-03-29.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2011-04-28.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2012-05-07.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2012-05-22.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2013-05-01.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2014-05-07.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2015-04-20.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2016-04-30.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2017-04-17.csv
+│   │   ├── Delhi Daredevils-Kolkata Knight Riders-2018-04-27.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2008-05-24.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2009-05-08.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2009-05-21.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2010-03-17.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2011-04-10.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2012-04-27.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2013-04-21.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2014-04-27.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2015-04-23.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2016-04-23.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2017-05-06.csv
+│   │   ├── Delhi Daredevils-Mumbai Indians-2018-05-20.csv
+│   │   ├── Delhi Daredevils-Pune Warriors-2011-05-21.csv
+│   │   ├── Delhi Daredevils-Pune Warriors-2012-04-21.csv
+│   │   ├── Delhi Daredevils-Pune Warriors-2013-04-28.csv
+│   │   ├── Delhi Daredevils-Rajasthan Royals-2008-04-19.csv
+│   │   ├── Delhi Daredevils-Rajasthan Royals-2008-05-30.csv
+│   │   ├── Delhi Daredevils-Rajasthan Royals-2009-04-28.csv
+│   │   ├── Delhi Daredevils-Rajasthan Royals-2009-05-17.csv
+│   │   ├── Delhi Daredevils-Rajasthan Royals-2010-03-31.csv
+│   │   ├── Delhi Daredevils-Rajasthan Royals-2012-04-29.csv
+│   │   ├── Delhi Daredevils-Rajasthan Royals-2013-04-06.csv
+│   │   ├── Delhi Daredevils-Rajasthan Royals-2014-05-03.csv
+│   │   ├── Delhi Daredevils-Rajasthan Royals-2015-04-12.csv
+│   │   ├── Delhi Daredevils-Rajasthan Royals-2018-05-02.csv
+│   │   ├── Delhi Daredevils-Rising Pune Supergiant-2017-05-12.csv
+│   │   ├── Delhi Daredevils-Rising Pune Supergiants-2016-05-05.csv
+│   │   ├── Delhi Daredevils-Royal Challengers Bangalore-2008-04-30.csv
+│   │   ├── Delhi Daredevils-Royal Challengers Bangalore-2010-04-04.csv
+│   │   ├── Delhi Daredevils-Royal Challengers Bangalore-2011-04-26.csv
+│   │   ├── Delhi Daredevils-Royal Challengers Bangalore-2012-05-17.csv
+│   │   ├── Delhi Daredevils-Royal Challengers Bangalore-2013-05-10.csv
+│   │   ├── Delhi Daredevils-Royal Challengers Bangalore-2014-04-17.csv
+│   │   ├── Delhi Daredevils-Royal Challengers Bangalore-2015-04-26.csv
+│   │   ├── Delhi Daredevils-Royal Challengers Bangalore-2016-05-22.csv
+│   │   ├── Delhi Daredevils-Royal Challengers Bangalore-2017-05-14.csv
+│   │   ├── Delhi Daredevils-Royal Challengers Bangalore-2018-04-21.csv
+│   │   ├── Delhi Daredevils-Royal Challengers Bangalore-2018-05-12.csv
+│   │   ├── Delhi Daredevils-Sunrisers Hyderabad-2013-04-12.csv
+│   │   ├── Delhi Daredevils-Sunrisers Hyderabad-2014-05-10.csv
+│   │   ├── Delhi Daredevils-Sunrisers Hyderabad-2015-05-09.csv
+│   │   ├── Delhi Daredevils-Sunrisers Hyderabad-2016-05-20.csv
+│   │   ├── Delhi Daredevils-Sunrisers Hyderabad-2017-05-02.csv
+│   │   ├── Delhi Daredevils-Sunrisers Hyderabad-2018-05-05.csv
+│   │   ├── Delhi Daredevils-Sunrisers Hyderabad-2018-05-10.csv
+│   │   ├── Gujarat Lions-Delhi Daredevils-2016-05-03.csv
+│   │   ├── Gujarat Lions-Delhi Daredevils-2017-05-10.csv
+│   │   ├── Gujarat Lions-Kings XI Punjab-2016-05-01.csv
+│   │   ├── Gujarat Lions-Kings XI Punjab-2017-04-23.csv
+│   │   ├── Gujarat Lions-Kolkata Knight Riders-2016-05-19.csv
+│   │   ├── Gujarat Lions-Kolkata Knight Riders-2017-04-07.csv
+│   │   ├── Gujarat Lions-Mumbai Indians-2016-05-21.csv
+│   │   ├── Gujarat Lions-Mumbai Indians-2017-04-29.csv
+│   │   ├── Gujarat Lions-Rising Pune Supergiant-2017-04-14.csv
+│   │   ├── Gujarat Lions-Rising Pune Supergiants-2016-04-14.csv
+│   │   ├── Gujarat Lions-Royal Challengers Bangalore-2016-04-24.csv
+│   │   ├── Gujarat Lions-Royal Challengers Bangalore-2016-05-24.csv
+│   │   ├── Gujarat Lions-Royal Challengers Bangalore-2017-04-18.csv
+│   │   ├── Gujarat Lions-Sunrisers Hyderabad-2016-04-21.csv
+│   │   ├── Gujarat Lions-Sunrisers Hyderabad-2016-05-27.csv
+│   │   ├── Gujarat Lions-Sunrisers Hyderabad-2017-05-13.csv
+│   │   ├── Gujarat Titans-Chennai Super Kings-2023-05-29.csv
+│   │   ├── Gujarat Titans-Chennai Super Kings-2024-05-10.csv
+│   │   ├── Gujarat Titans-Delhi Capitals-2022-04-02.csv
+│   │   ├── Gujarat Titans-Delhi Capitals-2024-04-17.csv
+│   │   ├── Gujarat Titans-Kolkata Knight Riders-2022-04-23.csv
+│   │   ├── Gujarat Titans-Kolkata Knight Riders-2023-04-09.csv
+│   │   ├── Gujarat Titans-Lucknow Super Giants-2022-05-10.csv
+│   │   ├── Gujarat Titans-Lucknow Super Giants-2023-04-22.csv
+│   │   ├── Gujarat Titans-Lucknow Super Giants-2023-05-07.csv
+│   │   ├── Gujarat Titans-Lucknow Super Giants-2025-04-12.csv
+│   │   ├── Gujarat Titans-Mumbai Indians-2023-04-25.csv
+│   │   ├── Gujarat Titans-Mumbai Indians-2023-05-26.csv
+│   │   ├── Gujarat Titans-Mumbai Indians-2024-03-24.csv
+│   │   ├── Gujarat Titans-Mumbai Indians-2025-03-29.csv
+│   │   ├── Gujarat Titans-Punjab Kings-2022-05-03.csv
+│   │   ├── Gujarat Titans-Punjab Kings-2024-04-04.csv
+│   │   ├── Gujarat Titans-Rajasthan Royals-2022-04-14.csv
+│   │   ├── Gujarat Titans-Rajasthan Royals-2023-04-16.csv
+│   │   ├── Gujarat Titans-Rajasthan Royals-2025-04-09.csv
+│   │   ├── Gujarat Titans-Royal Challengers Bangalore-2022-05-19.csv
+│   │   ├── Gujarat Titans-Royal Challengers Bengaluru-2024-04-28.csv
+│   │   ├── Gujarat Titans-Royal Challengers Bengaluru-2024-05-04.csv
+│   │   ├── Gujarat Titans-Sunrisers Hyderabad-2022-04-11.csv
+│   │   ├── Gujarat Titans-Sunrisers Hyderabad-2023-05-15.csv
+│   │   ├── Kings XI Punjab-Chennai Super Kings-2008-04-19.csv
+│   │   ├── Kings XI Punjab-Chennai Super Kings-2010-04-18.csv
+│   │   ├── Kings XI Punjab-Chennai Super Kings-2011-04-13.csv
+│   │   ├── Kings XI Punjab-Chennai Super Kings-2012-05-17.csv
+│   │   ├── Kings XI Punjab-Chennai Super Kings-2013-04-10.csv
+│   │   ├── Kings XI Punjab-Chennai Super Kings-2014-05-07.csv
+│   │   ├── Kings XI Punjab-Chennai Super Kings-2015-05-16.csv
+│   │   ├── Kings XI Punjab-Chennai Super Kings-2018-04-15.csv
+│   │   ├── Kings XI Punjab-Chennai Super Kings-2018-05-20.csv
+│   │   ├── Kings XI Punjab-Chennai Super Kings-2020-10-04.csv
+│   │   ├── Kings XI Punjab-Chennai Super Kings-2020-11-01.csv
+│   │   ├── Kings XI Punjab-Deccan Chargers-2008-05-23.csv
+│   │   ├── Kings XI Punjab-Deccan Chargers-2010-04-16.csv
+│   │   ├── Kings XI Punjab-Deccan Chargers-2011-05-21.csv
+│   │   ├── Kings XI Punjab-Deccan Chargers-2012-05-13.csv
+│   │   ├── Kings XI Punjab-Delhi Capitals-2019-04-01.csv
+│   │   ├── Kings XI Punjab-Delhi Capitals-2019-04-20.csv
+│   │   ├── Kings XI Punjab-Delhi Daredevils-2008-04-27.csv
+│   │   ├── Kings XI Punjab-Delhi Daredevils-2010-03-13.csv
+│   │   ├── Kings XI Punjab-Delhi Daredevils-2011-05-15.csv
+│   │   ├── Kings XI Punjab-Delhi Daredevils-2012-05-19.csv
+│   │   ├── Kings XI Punjab-Delhi Daredevils-2013-05-16.csv
+│   │   ├── Kings XI Punjab-Delhi Daredevils-2014-05-25.csv
+│   │   ├── Kings XI Punjab-Delhi Daredevils-2015-04-15.csv
+│   │   ├── Kings XI Punjab-Delhi Daredevils-2016-05-07.csv
+│   │   ├── Kings XI Punjab-Delhi Daredevils-2017-04-30.csv
+│   │   ├── Kings XI Punjab-Delhi Daredevils-2018-04-23.csv
+│   │   ├── Kings XI Punjab-Gujarat Lions-2016-04-11.csv
+│   │   ├── Kings XI Punjab-Gujarat Lions-2017-05-07.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2008-05-03.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2009-04-21.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2009-05-03.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2010-03-27.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2012-04-18.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2013-04-16.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2014-05-11.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2014-05-27.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2015-04-18.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2016-04-19.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2017-05-09.csv
+│   │   ├── Kings XI Punjab-Kolkata Knight Riders-2019-05-03.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2008-04-25.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2009-04-29.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2009-05-12.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2010-04-09.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2011-05-10.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2012-04-25.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2013-05-18.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2014-05-21.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2015-05-03.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2016-04-25.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2017-04-20.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2018-05-04.csv
+│   │   ├── Kings XI Punjab-Mumbai Indians-2019-04-10.csv
+│   │   ├── Kings XI Punjab-Pune Warriors-2011-05-08.csv
+│   │   ├── Kings XI Punjab-Pune Warriors-2012-04-12.csv
+│   │   ├── Kings XI Punjab-Pune Warriors-2013-04-21.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2008-05-28.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2009-04-26.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2009-05-05.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2010-03-24.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2011-04-21.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2012-05-05.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2013-05-09.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2014-05-23.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2015-04-10.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2019-03-25.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2019-04-16.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2020-09-27.csv
+│   │   ├── Kings XI Punjab-Rajasthan Royals-2020-10-30.csv
+│   │   ├── Kings XI Punjab-Rising Pune Supergiant-2017-04-08.csv
+│   │   ├── Kings XI Punjab-Rising Pune Supergiants-2016-04-17.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2008-05-12.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2010-04-02.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2011-05-17.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2012-04-20.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2013-05-06.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2014-04-28.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2015-05-13.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2016-05-09.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2017-04-10.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2018-04-13.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2018-05-14.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2019-04-13.csv
+│   │   ├── Kings XI Punjab-Royal Challengers Bangalore-2020-09-24.csv
+│   │   ├── Kings XI Punjab-Sunrisers Hyderabad-2013-05-11.csv
+│   │   ├── Kings XI Punjab-Sunrisers Hyderabad-2014-04-22.csv
+│   │   ├── Kings XI Punjab-Sunrisers Hyderabad-2015-04-27.csv
+│   │   ├── Kings XI Punjab-Sunrisers Hyderabad-2016-05-15.csv
+│   │   ├── Kings XI Punjab-Sunrisers Hyderabad-2017-04-28.csv
+│   │   ├── Kings XI Punjab-Sunrisers Hyderabad-2018-04-19.csv
+│   │   ├── Kings XI Punjab-Sunrisers Hyderabad-2020-10-24.csv
+│   │   ├── Kochi Tuskers Kerala-Chennai Super Kings-2011-04-18.csv
+│   │   ├── Kochi Tuskers Kerala-Deccan Chargers-2011-04-27.csv
+│   │   ├── Kochi Tuskers Kerala-Delhi Daredevils-2011-04-30.csv
+│   │   ├── Kochi Tuskers Kerala-Kings XI Punjab-2011-05-13.csv
+│   │   ├── Kochi Tuskers Kerala-Kolkata Knight Riders-2011-05-05.csv
+│   │   ├── Kochi Tuskers Kerala-Rajasthan Royals-2011-05-15.csv
+│   │   ├── Kochi Tuskers Kerala-Royal Challengers Bangalore-2011-04-09.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2008-05-18.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2010-03-16.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2011-05-07.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2012-05-14.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2012-05-27.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2013-04-20.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2014-05-20.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2015-04-30.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2018-04-10.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2019-04-09.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2019-04-14.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2020-10-07.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2020-10-29.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2021-09-26.csv
+│   │   ├── Kolkata Knight Riders-Chennai Super Kings-2024-04-08.csv
+│   │   ├── Kolkata Knight Riders-Deccan Chargers-2008-04-20.csv
+│   │   ├── Kolkata Knight Riders-Deccan Chargers-2010-04-01.csv
+│   │   ├── Kolkata Knight Riders-Deccan Chargers-2011-04-11.csv
+│   │   ├── Kolkata Knight Riders-Delhi Capitals-2019-03-30.csv
+│   │   ├── Kolkata Knight Riders-Delhi Capitals-2019-04-12.csv
+│   │   ├── Kolkata Knight Riders-Delhi Capitals-2020-10-24.csv
+│   │   ├── Kolkata Knight Riders-Delhi Capitals-2021-04-29.csv
+│   │   ├── Kolkata Knight Riders-Delhi Capitals-2022-04-28.csv
+│   │   ├── Kolkata Knight Riders-Delhi Capitals-2023-04-20.csv
+│   │   ├── Kolkata Knight Riders-Delhi Capitals-2024-04-03.csv
+│   │   ├── Kolkata Knight Riders-Delhi Daredevils-2008-05-13.csv
+│   │   ├── Kolkata Knight Riders-Delhi Daredevils-2010-04-07.csv
+│   │   ├── Kolkata Knight Riders-Delhi Daredevils-2012-04-05.csv
+│   │   ├── Kolkata Knight Riders-Delhi Daredevils-2013-04-03.csv
+│   │   ├── Kolkata Knight Riders-Delhi Daredevils-2014-04-19.csv
+│   │   ├── Kolkata Knight Riders-Delhi Daredevils-2015-05-07.csv
+│   │   ├── Kolkata Knight Riders-Delhi Daredevils-2016-04-10.csv
+│   │   ├── Kolkata Knight Riders-Delhi Daredevils-2017-04-28.csv
+│   │   ├── Kolkata Knight Riders-Delhi Daredevils-2018-04-16.csv
+│   │   ├── Kolkata Knight Riders-Gujarat Lions-2016-05-08.csv
+│   │   ├── Kolkata Knight Riders-Gujarat Lions-2017-04-21.csv
+│   │   ├── Kolkata Knight Riders-Gujarat Titans-2023-04-29.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2008-05-25.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2010-04-04.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2011-04-30.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2012-04-15.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2013-04-26.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2014-04-26.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2014-06-01.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2015-05-09.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2016-05-04.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2017-04-13.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2018-04-21.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2018-05-12.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2019-03-27.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2020-10-10.csv
+│   │   ├── Kolkata Knight Riders-Kings XI Punjab-2020-10-26.csv
+│   │   ├── Kolkata Knight Riders-Kochi Tuskers Kerala-2011-04-20.csv
+│   │   ├── Kolkata Knight Riders-Lucknow Super Giants-2024-05-05.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2008-04-29.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2009-04-27.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2009-05-01.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2010-04-19.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2011-05-22.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2012-05-12.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2013-04-24.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2014-05-14.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2015-04-08.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2016-04-13.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2017-05-13.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2019-04-28.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2019-05-05.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2020-10-16.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2022-05-09.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2023-04-16.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2024-05-03.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2024-05-11.csv
+│   │   ├── Kolkata Knight Riders-Mumbai Indians-2025-03-31.csv
+│   │   ├── Kolkata Knight Riders-Pune Warriors-2012-05-05.csv
+│   │   ├── Kolkata Knight Riders-Pune Warriors-2013-05-15.csv
+│   │   ├── Kolkata Knight Riders-Punjab Kings-2021-10-01.csv
+│   │   ├── Kolkata Knight Riders-Punjab Kings-2024-04-26.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2008-05-20.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2009-04-23.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2009-05-20.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2010-04-17.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2011-04-17.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2012-04-13.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2013-05-03.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2014-04-29.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2018-05-23.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2019-04-25.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2020-09-30.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2020-11-01.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2021-04-24.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2021-10-07.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2023-05-11.csv
+│   │   ├── Kolkata Knight Riders-Rajasthan Royals-2024-04-16.csv
+│   │   ├── Kolkata Knight Riders-Rising Pune Supergiant-2017-05-03.csv
+│   │   ├── Kolkata Knight Riders-Rising Pune Supergiants-2016-05-14.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2008-05-08.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2010-03-14.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2011-04-22.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2012-04-28.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2013-05-12.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2014-05-22.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2015-04-11.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2016-05-16.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2017-04-23.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2020-10-21.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2022-03-30.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2023-04-06.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bangalore-2023-04-26.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bengaluru-2024-04-21.csv
+│   │   ├── Kolkata Knight Riders-Royal Challengers Bengaluru-2025-03-22.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2013-04-14.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2014-05-24.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2015-05-04.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2016-05-22.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2017-04-15.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2018-04-14.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2019-04-21.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2020-10-18.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2021-04-11.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2022-04-15.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2022-05-14.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2023-05-04.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2024-03-23.csv
+│   │   ├── Kolkata Knight Riders-Sunrisers Hyderabad-2025-04-03.csv
+│   │   ├── Lucknow Super Giants-Chennai Super Kings-2023-05-03.csv
+│   │   ├── Lucknow Super Giants-Chennai Super Kings-2025-04-14.csv
+│   │   ├── Lucknow Super Giants-Delhi Capitals-2022-05-01.csv
+│   │   ├── Lucknow Super Giants-Delhi Capitals-2023-04-01.csv
+│   │   ├── Lucknow Super Giants-Delhi Capitals-2024-04-12.csv
+│   │   ├── Lucknow Super Giants-Delhi Capitals-2025-03-24.csv
+│   │   ├── Lucknow Super Giants-Gujarat Titans-2022-03-28.csv
+│   │   ├── Lucknow Super Giants-Gujarat Titans-2024-04-07.csv
+│   │   ├── Lucknow Super Giants-Kolkata Knight Riders-2022-05-07.csv
+│   │   ├── Lucknow Super Giants-Kolkata Knight Riders-2022-05-18.csv
+│   │   ├── Lucknow Super Giants-Kolkata Knight Riders-2023-05-20.csv
+│   │   ├── Lucknow Super Giants-Kolkata Knight Riders-2024-04-14.csv
+│   │   ├── Lucknow Super Giants-Kolkata Knight Riders-2025-04-08.csv
+│   │   ├── Lucknow Super Giants-Mumbai Indians-2022-04-16.csv
+│   │   ├── Lucknow Super Giants-Mumbai Indians-2022-04-24.csv
+│   │   ├── Lucknow Super Giants-Mumbai Indians-2023-05-16.csv
+│   │   ├── Lucknow Super Giants-Mumbai Indians-2024-05-17.csv
+│   │   ├── Lucknow Super Giants-Mumbai Indians-2025-04-04.csv
+│   │   ├── Lucknow Super Giants-Punjab Kings-2022-04-29.csv
+│   │   ├── Lucknow Super Giants-Punjab Kings-2023-04-15.csv
+│   │   ├── Lucknow Super Giants-Punjab Kings-2023-04-28.csv
+│   │   ├── Lucknow Super Giants-Punjab Kings-2024-03-30.csv
+│   │   ├── Lucknow Super Giants-Punjab Kings-2025-04-01.csv
+│   │   ├── Lucknow Super Giants-Rajasthan Royals-2023-04-19.csv
+│   │   ├── Lucknow Super Giants-Rajasthan Royals-2024-04-27.csv
+│   │   ├── Lucknow Super Giants-Royal Challengers Bengaluru-2024-04-02.csv
+│   │   ├── Lucknow Super Giants-Sunrisers Hyderabad-2022-04-04.csv
+│   │   ├── Lucknow Super Giants-Sunrisers Hyderabad-2024-05-08.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2008-05-14.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2011-04-22.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2012-05-06.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2013-05-05.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2014-05-10.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2015-04-17.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2015-05-24.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2018-04-07.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2019-04-03.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2019-04-26.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2019-05-12.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2020-09-19.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2022-04-21.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2023-04-08.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2023-05-06.csv
+│   │   ├── Mumbai Indians-Chennai Super Kings-2025-03-23.csv
+│   │   ├── Mumbai Indians-Deccan Chargers-2008-04-27.csv
+│   │   ├── Mumbai Indians-Deccan Chargers-2010-04-03.csv
+│   │   ├── Mumbai Indians-Deccan Chargers-2011-05-14.csv
+│   │   ├── Mumbai Indians-Deccan Chargers-2012-04-29.csv
+│   │   ├── Mumbai Indians-Delhi Capitals-2019-04-18.csv
+│   │   ├── Mumbai Indians-Delhi Capitals-2020-11-05.csv
+│   │   ├── Mumbai Indians-Delhi Capitals-2021-04-20.csv
+│   │   ├── Mumbai Indians-Delhi Capitals-2021-10-02.csv
+│   │   ├── Mumbai Indians-Delhi Capitals-2022-03-27.csv
+│   │   ├── Mumbai Indians-Delhi Capitals-2024-04-07.csv
+│   │   ├── Mumbai Indians-Delhi Capitals-2025-04-13.csv
+│   │   ├── Mumbai Indians-Delhi Daredevils-2008-05-04.csv
+│   │   ├── Mumbai Indians-Delhi Daredevils-2010-04-13.csv
+│   │   ├── Mumbai Indians-Delhi Daredevils-2011-05-07.csv
+│   │   ├── Mumbai Indians-Delhi Daredevils-2012-04-16.csv
+│   │   ├── Mumbai Indians-Delhi Daredevils-2013-04-09.csv
+│   │   ├── Mumbai Indians-Delhi Daredevils-2014-05-23.csv
+│   │   ├── Mumbai Indians-Delhi Daredevils-2015-05-05.csv
+│   │   ├── Mumbai Indians-Delhi Daredevils-2016-05-15.csv
+│   │   ├── Mumbai Indians-Delhi Daredevils-2017-04-22.csv
+│   │   ├── Mumbai Indians-Delhi Daredevils-2018-04-14.csv
+│   │   ├── Mumbai Indians-Gujarat Lions-2016-04-16.csv
+│   │   ├── Mumbai Indians-Gujarat Lions-2017-04-16.csv
+│   │   ├── Mumbai Indians-Gujarat Titans-2022-05-06.csv
+│   │   ├── Mumbai Indians-Gujarat Titans-2023-05-12.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2008-05-21.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2010-03-30.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2011-05-02.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2012-04-22.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2013-04-29.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2014-05-03.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2015-04-12.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2016-05-13.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2017-05-11.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2018-05-16.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2019-03-30.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2020-10-01.csv
+│   │   ├── Mumbai Indians-Kings XI Punjab-2020-10-18.csv
+│   │   ├── Mumbai Indians-Kochi Tuskers Kerala-2011-04-15.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2008-05-16.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2010-03-22.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2011-05-25.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2012-05-16.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2013-05-07.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2014-04-16.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2015-05-14.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2016-04-28.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2017-04-09.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2017-05-19.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2018-05-06.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2018-05-09.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2020-09-23.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2021-04-13.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2021-09-23.csv
+│   │   ├── Mumbai Indians-Kolkata Knight Riders-2022-04-06.csv
+│   │   ├── Mumbai Indians-Lucknow Super Giants-2023-05-24.csv
+│   │   ├── Mumbai Indians-Lucknow Super Giants-2024-04-30.csv
+│   │   ├── Mumbai Indians-Pune Warriors-2011-04-20.csv
+│   │   ├── Mumbai Indians-Pune Warriors-2012-04-06.csv
+│   │   ├── Mumbai Indians-Pune Warriors-2013-04-13.csv
+│   │   ├── Mumbai Indians-Punjab Kings-2021-04-23.csv
+│   │   ├── Mumbai Indians-Punjab Kings-2024-04-18.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2008-05-07.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2009-05-14.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2010-03-13.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2011-05-20.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2012-04-11.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2013-05-15.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2013-05-24.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2014-05-25.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2015-05-01.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2018-04-22.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2018-05-13.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2019-04-13.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2019-04-20.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2020-10-06.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2020-10-25.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2024-04-01.csv
+│   │   ├── Mumbai Indians-Rajasthan Royals-2024-04-22.csv
+│   │   ├── Mumbai Indians-Rising Pune Supergiant-2017-04-24.csv
+│   │   ├── Mumbai Indians-Rising Pune Supergiant-2017-05-16.csv
+│   │   ├── Mumbai Indians-Rising Pune Supergiant-2017-05-21.csv
+│   │   ├── Mumbai Indians-Rising Pune Supergiants-2016-04-09.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2008-04-20.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2010-03-20.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2012-05-09.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2013-04-27.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2014-05-06.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2015-05-10.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2016-04-20.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2017-05-01.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2018-04-17.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2019-03-28.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2021-04-09.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2022-04-09.csv
+│   │   ├── Mumbai Indians-Royal Challengers Bangalore-2023-04-02.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2013-05-13.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2014-04-30.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2015-04-25.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2016-05-08.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2017-04-12.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2018-04-12.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2019-04-06.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2019-05-02.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2020-10-04.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2020-11-03.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2021-04-17.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2021-10-08.csv
+│   │   ├── Mumbai Indians-Sunrisers Hyderabad-2023-04-18.csv
+│   │   ├── Pune Warriors-Chennai Super Kings-2011-04-27.csv
+│   │   ├── Pune Warriors-Chennai Super Kings-2012-04-14.csv
+│   │   ├── Pune Warriors-Chennai Super Kings-2013-04-30.csv
+│   │   ├── Pune Warriors-Deccan Chargers-2011-05-16.csv
+│   │   ├── Pune Warriors-Deccan Chargers-2012-04-26.csv
+│   │   ├── Pune Warriors-Delhi Daredevils-2011-04-17.csv
+│   │   ├── Pune Warriors-Delhi Daredevils-2012-04-24.csv
+│   │   ├── Pune Warriors-Delhi Daredevils-2013-05-19.csv
+│   │   ├── Pune Warriors-Kings XI Punjab-2011-04-10.csv
+│   │   ├── Pune Warriors-Kings XI Punjab-2012-04-08.csv
+│   │   ├── Pune Warriors-Kings XI Punjab-2013-04-07.csv
+│   │   ├── Pune Warriors-Kochi Tuskers Kerala-2011-04-13.csv
+│   │   ├── Pune Warriors-Kolkata Knight Riders-2011-05-19.csv
+│   │   ├── Pune Warriors-Kolkata Knight Riders-2012-05-19.csv
+│   │   ├── Pune Warriors-Kolkata Knight Riders-2013-05-09.csv
+│   │   ├── Pune Warriors-Mumbai Indians-2011-05-04.csv
+│   │   ├── Pune Warriors-Mumbai Indians-2012-05-03.csv
+│   │   ├── Pune Warriors-Mumbai Indians-2013-05-11.csv
+│   │   ├── Pune Warriors-Rajasthan Royals-2012-05-08.csv
+│   │   ├── Pune Warriors-Rajasthan Royals-2013-04-11.csv
+│   │   ├── Pune Warriors-Royal Challengers Bangalore-2012-05-11.csv
+│   │   ├── Pune Warriors-Royal Challengers Bangalore-2013-05-02.csv
+│   │   ├── Pune Warriors-Sunrisers Hyderabad-2013-04-17.csv
+│   │   ├── Punjab Kings-Chennai Super Kings-2021-04-16.csv
+│   │   ├── Punjab Kings-Chennai Super Kings-2022-04-03.csv
+│   │   ├── Punjab Kings-Chennai Super Kings-2022-04-25.csv
+│   │   ├── Punjab Kings-Chennai Super Kings-2025-04-08.csv
+│   │   ├── Punjab Kings-Delhi Capitals-2021-04-18.csv
+│   │   ├── Punjab Kings-Delhi Capitals-2021-05-02.csv
+│   │   ├── Punjab Kings-Delhi Capitals-2022-04-20.csv
+│   │   ├── Punjab Kings-Delhi Capitals-2023-05-13.csv
+│   │   ├── Punjab Kings-Gujarat Titans-2022-04-08.csv
+│   │   ├── Punjab Kings-Gujarat Titans-2023-04-13.csv
+│   │   ├── Punjab Kings-Gujarat Titans-2024-04-21.csv
+│   │   ├── Punjab Kings-Gujarat Titans-2025-03-25.csv
+│   │   ├── Punjab Kings-Kolkata Knight Riders-2021-04-26.csv
+│   │   ├── Punjab Kings-Kolkata Knight Riders-2022-04-01.csv
+│   │   ├── Punjab Kings-Kolkata Knight Riders-2023-04-01.csv
+│   │   ├── Punjab Kings-Kolkata Knight Riders-2023-05-08.csv
+│   │   ├── Punjab Kings-Kolkata Knight Riders-2025-04-15.csv
+│   │   ├── Punjab Kings-Mumbai Indians-2021-09-28.csv
+│   │   ├── Punjab Kings-Mumbai Indians-2022-04-13.csv
+│   │   ├── Punjab Kings-Mumbai Indians-2023-04-22.csv
+│   │   ├── Punjab Kings-Mumbai Indians-2023-05-03.csv
+│   │   ├── Punjab Kings-Rajasthan Royals-2021-04-12.csv
+│   │   ├── Punjab Kings-Rajasthan Royals-2022-05-07.csv
+│   │   ├── Punjab Kings-Rajasthan Royals-2023-04-05.csv
+│   │   ├── Punjab Kings-Rajasthan Royals-2023-05-19.csv
+│   │   ├── Punjab Kings-Rajasthan Royals-2024-04-13.csv
+│   │   ├── Punjab Kings-Royal Challengers Bangalore-2021-04-30.csv
+│   │   ├── Punjab Kings-Royal Challengers Bangalore-2022-05-13.csv
+│   │   ├── Punjab Kings-Royal Challengers Bengaluru-2024-03-25.csv
+│   │   ├── Punjab Kings-Sunrisers Hyderabad-2021-04-21.csv
+│   │   ├── Punjab Kings-Sunrisers Hyderabad-2021-09-25.csv
+│   │   ├── Punjab Kings-Sunrisers Hyderabad-2022-04-17.csv
+│   │   ├── Punjab Kings-Sunrisers Hyderabad-2023-04-09.csv
+│   │   ├── Punjab Kings-Sunrisers Hyderabad-2024-05-19.csv
+│   │   ├── Punjab Kings-Sunrisers Hyderabad-2025-04-12.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2008-05-04.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2010-03-28.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2011-05-09.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2012-05-10.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2013-05-12.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2014-04-23.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2015-04-19.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2019-04-11.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2020-09-22.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2023-04-12.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2023-04-27.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2024-05-12.csv
+│   │   ├── Rajasthan Royals-Chennai Super Kings-2025-03-30.csv
+│   │   ├── Rajasthan Royals-Deccan Chargers-2008-05-09.csv
+│   │   ├── Rajasthan Royals-Deccan Chargers-2010-03-26.csv
+│   │   ├── Rajasthan Royals-Deccan Chargers-2012-04-17.csv
+│   │   ├── Rajasthan Royals-Delhi Capitals-2019-04-22.csv
+│   │   ├── Rajasthan Royals-Delhi Capitals-2019-05-04.csv
+│   │   ├── Rajasthan Royals-Delhi Capitals-2022-04-22.csv
+│   │   ├── Rajasthan Royals-Delhi Capitals-2022-05-11.csv
+│   │   ├── Rajasthan Royals-Delhi Capitals-2023-04-08.csv
+│   │   ├── Rajasthan Royals-Delhi Capitals-2024-03-28.csv
+│   │   ├── Rajasthan Royals-Delhi Daredevils-2008-05-11.csv
+│   │   ├── Rajasthan Royals-Delhi Daredevils-2010-03-15.csv
+│   │   ├── Rajasthan Royals-Delhi Daredevils-2011-04-12.csv
+│   │   ├── Rajasthan Royals-Delhi Daredevils-2012-05-01.csv
+│   │   ├── Rajasthan Royals-Delhi Daredevils-2013-05-07.csv
+│   │   ├── Rajasthan Royals-Delhi Daredevils-2014-05-15.csv
+│   │   ├── Rajasthan Royals-Delhi Daredevils-2015-05-03.csv
+│   │   ├── Rajasthan Royals-Delhi Daredevils-2018-04-11.csv
+│   │   ├── Rajasthan Royals-Gujarat Titans-2022-05-24.csv
+│   │   ├── Rajasthan Royals-Gujarat Titans-2022-05-29.csv
+│   │   ├── Rajasthan Royals-Gujarat Titans-2023-05-05.csv
+│   │   ├── Rajasthan Royals-Gujarat Titans-2024-04-10.csv
+│   │   ├── Rajasthan Royals-Kings XI Punjab-2008-04-21.csv
+│   │   ├── Rajasthan Royals-Kings XI Punjab-2010-04-07.csv
+│   │   ├── Rajasthan Royals-Kings XI Punjab-2012-04-06.csv
+│   │   ├── Rajasthan Royals-Kings XI Punjab-2013-04-14.csv
+│   │   ├── Rajasthan Royals-Kings XI Punjab-2014-04-20.csv
+│   │   ├── Rajasthan Royals-Kings XI Punjab-2015-04-21.csv
+│   │   ├── Rajasthan Royals-Kings XI Punjab-2018-05-06.csv
+│   │   ├── Rajasthan Royals-Kings XI Punjab-2018-05-08.csv
+│   │   ├── Rajasthan Royals-Kochi Tuskers Kerala-2011-04-24.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2008-05-01.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2010-03-20.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2011-04-15.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2012-04-08.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2013-04-08.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2014-05-05.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2015-05-16.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2018-04-18.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2018-05-15.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2019-04-07.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2022-04-18.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2022-05-02.csv
+│   │   ├── Rajasthan Royals-Kolkata Knight Riders-2025-03-26.csv
+│   │   ├── Rajasthan Royals-Lucknow Super Giants-2022-04-10.csv
+│   │   ├── Rajasthan Royals-Lucknow Super Giants-2022-05-15.csv
+│   │   ├── Rajasthan Royals-Lucknow Super Giants-2024-03-24.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2008-05-26.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2010-04-11.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2011-04-29.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2012-05-20.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2013-04-17.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2014-05-19.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2015-04-14.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2021-04-29.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2021-10-05.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2022-04-02.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2022-04-30.csv
+│   │   ├── Rajasthan Royals-Mumbai Indians-2023-04-30.csv
+│   │   ├── Rajasthan Royals-Pune Warriors-2011-05-01.csv
+│   │   ├── Rajasthan Royals-Pune Warriors-2012-05-13.csv
+│   │   ├── Rajasthan Royals-Pune Warriors-2013-05-05.csv
+│   │   ├── Rajasthan Royals-Punjab Kings-2021-09-21.csv
+│   │   ├── Rajasthan Royals-Punjab Kings-2024-05-15.csv
+│   │   ├── Rajasthan Royals-Punjab Kings-2025-04-05.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2008-05-17.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2010-04-14.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2011-05-11.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2012-04-23.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2013-04-29.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2014-04-26.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2015-04-24.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2018-04-15.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2018-05-19.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2020-10-03.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2020-10-17.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2021-04-22.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2021-09-29.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2022-04-05.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bangalore-2022-04-26.csv
+│   │   ├── Rajasthan Royals-Royal Challengers Bengaluru-2025-04-13.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2013-04-27.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2013-05-22.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2014-05-08.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2015-05-07.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2018-04-09.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2019-03-29.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2020-10-22.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2021-05-02.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2021-09-27.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2022-03-29.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2023-04-02.csv
+│   │   ├── Rajasthan Royals-Sunrisers Hyderabad-2023-05-07.csv
+│   │   ├── Rising Pune Supergiant-Delhi Daredevils-2017-04-11.csv
+│   │   ├── Rising Pune Supergiant-Gujarat Lions-2017-05-01.csv
+│   │   ├── Rising Pune Supergiant-Kings XI Punjab-2017-05-14.csv
+│   │   ├── Rising Pune Supergiant-Kolkata Knight Riders-2017-04-26.csv
+│   │   ├── Rising Pune Supergiant-Mumbai Indians-2017-04-06.csv
+│   │   ├── Rising Pune Supergiant-Royal Challengers Bangalore-2017-04-29.csv
+│   │   ├── Rising Pune Supergiant-Sunrisers Hyderabad-2017-04-22.csv
+│   │   ├── Rising Pune Supergiants-Delhi Daredevils-2016-05-17.csv
+│   │   ├── Rising Pune Supergiants-Gujarat Lions-2016-04-29.csv
+│   │   ├── Rising Pune Supergiants-Kings XI Punjab-2016-05-21.csv
+│   │   ├── Rising Pune Supergiants-Kolkata Knight Riders-2016-04-24.csv
+│   │   ├── Rising Pune Supergiants-Mumbai Indians-2016-05-01.csv
+│   │   ├── Rising Pune Supergiants-Royal Challengers Bangalore-2016-04-22.csv
+│   │   ├── Rising Pune Supergiants-Sunrisers Hyderabad-2016-05-10.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2008-04-28.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2009-04-20.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2009-05-14.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2009-05-23.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2010-03-23.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2011-05-22.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2011-05-24.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2013-05-18.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2014-05-24.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2015-04-22.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2018-04-25.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2018-05-05.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2019-03-23.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2019-04-21.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2020-10-10.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2020-10-25.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2021-09-24.csv
+│   │   ├── Royal Challengers Bangalore-Chennai Super Kings-2022-05-04.csv
+│   │   ├── Royal Challengers Bangalore-Deccan Chargers-2008-05-03.csv
+│   │   ├── Royal Challengers Bangalore-Deccan Chargers-2009-04-22.csv
+│   │   ├── Royal Challengers Bangalore-Deccan Chargers-2009-05-21.csv
+│   │   ├── Royal Challengers Bangalore-Deccan Chargers-2009-05-24.csv
+│   │   ├── Royal Challengers Bangalore-Deccan Chargers-2010-04-08.csv
+│   │   ├── Royal Challengers Bangalore-Deccan Chargers-2010-04-24.csv
+│   │   ├── Royal Challengers Bangalore-Deccan Chargers-2012-05-06.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Capitals-2019-04-07.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Capitals-2020-11-02.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Capitals-2021-04-27.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Capitals-2022-04-16.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Capitals-2023-04-15.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Capitals-2023-05-06.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Daredevils-2008-05-19.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Daredevils-2009-04-26.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Daredevils-2009-05-19.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Daredevils-2010-03-25.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Daredevils-2012-04-07.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Daredevils-2013-04-16.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Daredevils-2014-05-13.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Daredevils-2015-05-17.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Daredevils-2016-04-17.csv
+│   │   ├── Royal Challengers Bangalore-Delhi Daredevils-2017-04-08.csv
+│   │   ├── Royal Challengers Bangalore-Gujarat Lions-2016-05-14.csv
+│   │   ├── Royal Challengers Bangalore-Gujarat Lions-2017-04-27.csv
+│   │   ├── Royal Challengers Bangalore-Gujarat Titans-2022-04-30.csv
+│   │   ├── Royal Challengers Bangalore-Gujarat Titans-2023-05-21.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2008-05-05.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2009-04-24.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2009-05-01.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2010-03-16.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2011-05-06.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2012-05-02.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2013-05-14.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2014-05-09.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2015-05-06.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2016-05-18.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2017-05-05.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2019-04-24.csv
+│   │   ├── Royal Challengers Bangalore-Kings XI Punjab-2020-10-15.csv
+│   │   ├── Royal Challengers Bangalore-Kochi Tuskers Kerala-2011-05-08.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2008-04-18.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2009-04-29.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2009-05-12.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2010-04-10.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2011-05-14.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2012-04-10.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2013-04-11.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2014-04-24.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2015-05-02.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2016-05-02.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2017-05-07.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2018-04-08.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2018-04-29.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2019-04-05.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2019-04-19.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2020-10-12.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2021-04-18.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2021-09-20.csv
+│   │   ├── Royal Challengers Bangalore-Kolkata Knight Riders-2021-10-11.csv
+│   │   ├── Royal Challengers Bangalore-Lucknow Super Giants-2022-04-19.csv
+│   │   ├── Royal Challengers Bangalore-Lucknow Super Giants-2022-05-25.csv
+│   │   ├── Royal Challengers Bangalore-Lucknow Super Giants-2023-04-10.csv
+│   │   ├── Royal Challengers Bangalore-Lucknow Super Giants-2023-05-01.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2008-05-28.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2009-05-03.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2009-05-10.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2010-04-17.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2010-04-21.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2011-04-12.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2011-05-27.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2012-05-14.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2013-04-04.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2014-04-19.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2015-04-19.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2016-05-11.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2017-04-14.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2018-05-01.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2019-04-15.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2020-09-28.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2020-10-28.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2021-09-26.csv
+│   │   ├── Royal Challengers Bangalore-Mumbai Indians-2023-05-09.csv
+│   │   ├── Royal Challengers Bangalore-Pune Warriors-2011-04-29.csv
+│   │   ├── Royal Challengers Bangalore-Pune Warriors-2012-04-17.csv
+│   │   ├── Royal Challengers Bangalore-Pune Warriors-2013-04-23.csv
+│   │   ├── Royal Challengers Bangalore-Punjab Kings-2021-10-03.csv
+│   │   ├── Royal Challengers Bangalore-Punjab Kings-2022-03-27.csv
+│   │   ├── Royal Challengers Bangalore-Punjab Kings-2023-04-20.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2008-04-26.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2009-04-18.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2009-05-07.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2010-03-18.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2012-04-15.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2013-04-20.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2014-05-11.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2015-04-29.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2015-05-20.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2019-04-02.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2019-04-30.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2022-05-27.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2023-04-23.csv
+│   │   ├── Royal Challengers Bangalore-Rajasthan Royals-2023-05-14.csv
+│   │   ├── Royal Challengers Bangalore-Rising Pune Supergiant-2017-04-16.csv
+│   │   ├── Royal Challengers Bangalore-Rising Pune Supergiants-2016-05-07.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2013-04-09.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2014-05-04.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2015-04-13.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2016-04-12.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2016-05-29.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2018-05-17.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2020-09-21.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2020-10-31.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2020-11-06.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2021-04-14.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2022-04-23.csv
+│   │   ├── Royal Challengers Bangalore-Sunrisers Hyderabad-2022-05-08.csv
+│   │   ├── Royal Challengers Bengaluru-Chennai Super Kings-2024-03-22.csv
+│   │   ├── Royal Challengers Bengaluru-Chennai Super Kings-2024-05-18.csv
+│   │   ├── Royal Challengers Bengaluru-Chennai Super Kings-2025-03-28.csv
+│   │   ├── Royal Challengers Bengaluru-Delhi Capitals-2024-05-12.csv
+│   │   ├── Royal Challengers Bengaluru-Delhi Capitals-2025-04-10.csv
+│   │   ├── Royal Challengers Bengaluru-Gujarat Titans-2025-04-02.csv
+│   │   ├── Royal Challengers Bengaluru-Kolkata Knight Riders-2024-03-29.csv
+│   │   ├── Royal Challengers Bengaluru-Mumbai Indians-2024-04-11.csv
+│   │   ├── Royal Challengers Bengaluru-Mumbai Indians-2025-04-07.csv
+│   │   ├── Royal Challengers Bengaluru-Punjab Kings-2024-05-09.csv
+│   │   ├── Royal Challengers Bengaluru-Rajasthan Royals-2024-04-06.csv
+│   │   ├── Royal Challengers Bengaluru-Rajasthan Royals-2024-05-22.csv
+│   │   ├── Royal Challengers Bengaluru-Sunrisers Hyderabad-2024-04-25.csv
+│   │   ├── Sunrisers Hyderabad-Chennai Super Kings-2013-05-08.csv
+│   │   ├── Sunrisers Hyderabad-Chennai Super Kings-2014-04-27.csv
+│   │   ├── Sunrisers Hyderabad-Chennai Super Kings-2015-05-02.csv
+│   │   ├── Sunrisers Hyderabad-Chennai Super Kings-2018-05-13.csv
+│   │   ├── Sunrisers Hyderabad-Chennai Super Kings-2018-05-22.csv
+│   │   ├── Sunrisers Hyderabad-Chennai Super Kings-2018-05-27.csv
+│   │   ├── Sunrisers Hyderabad-Chennai Super Kings-2019-04-23.csv
+│   │   ├── Sunrisers Hyderabad-Chennai Super Kings-2020-10-02.csv
+│   │   ├── Sunrisers Hyderabad-Chennai Super Kings-2021-04-28.csv
+│   │   ├── Sunrisers Hyderabad-Chennai Super Kings-2021-09-30.csv
+│   │   ├── Sunrisers Hyderabad-Chennai Super Kings-2023-04-21.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Capitals-2019-05-08.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Capitals-2020-09-29.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Capitals-2020-10-27.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Capitals-2021-09-22.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Capitals-2023-04-29.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Capitals-2024-04-20.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Capitals-2025-03-30.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Daredevils-2013-05-04.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Daredevils-2014-04-25.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Daredevils-2015-04-18.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Daredevils-2016-05-12.csv
+│   │   ├── Sunrisers Hyderabad-Delhi Daredevils-2017-04-19.csv
+│   │   ├── Sunrisers Hyderabad-Gujarat Lions-2016-05-06.csv
+│   │   ├── Sunrisers Hyderabad-Gujarat Lions-2017-04-09.csv
+│   │   ├── Sunrisers Hyderabad-Gujarat Titans-2022-04-27.csv
+│   │   ├── Sunrisers Hyderabad-Gujarat Titans-2024-03-31.csv
+│   │   ├── Sunrisers Hyderabad-Gujarat Titans-2025-04-06.csv
+│   │   ├── Sunrisers Hyderabad-Kings XI Punjab-2013-04-19.csv
+│   │   ├── Sunrisers Hyderabad-Kings XI Punjab-2014-05-14.csv
+│   │   ├── Sunrisers Hyderabad-Kings XI Punjab-2015-05-11.csv
+│   │   ├── Sunrisers Hyderabad-Kings XI Punjab-2016-04-23.csv
+│   │   ├── Sunrisers Hyderabad-Kings XI Punjab-2017-04-17.csv
+│   │   ├── Sunrisers Hyderabad-Kings XI Punjab-2018-04-26.csv
+│   │   ├── Sunrisers Hyderabad-Kings XI Punjab-2019-04-08.csv
+│   │   ├── Sunrisers Hyderabad-Kings XI Punjab-2019-04-29.csv
+│   │   ├── Sunrisers Hyderabad-Kings XI Punjab-2020-10-08.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2013-05-19.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2014-05-18.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2015-04-22.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2016-04-16.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2016-05-25.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2017-04-30.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2017-05-17.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2018-05-19.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2018-05-25.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2019-03-24.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2020-09-26.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2021-10-03.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2023-04-14.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2024-05-21.csv
+│   │   ├── Sunrisers Hyderabad-Kolkata Knight Riders-2024-05-26.csv
+│   │   ├── Sunrisers Hyderabad-Lucknow Super Giants-2023-04-07.csv
+│   │   ├── Sunrisers Hyderabad-Lucknow Super Giants-2023-05-13.csv
+│   │   ├── Sunrisers Hyderabad-Lucknow Super Giants-2025-03-27.csv
+│   │   ├── Sunrisers Hyderabad-Mumbai Indians-2013-05-01.csv
+│   │   ├── Sunrisers Hyderabad-Mumbai Indians-2014-05-12.csv
+│   │   ├── Sunrisers Hyderabad-Mumbai Indians-2015-05-17.csv
+│   │   ├── Sunrisers Hyderabad-Mumbai Indians-2016-04-18.csv
+│   │   ├── Sunrisers Hyderabad-Mumbai Indians-2017-05-08.csv
+│   │   ├── Sunrisers Hyderabad-Mumbai Indians-2018-04-24.csv
+│   │   ├── Sunrisers Hyderabad-Mumbai Indians-2022-05-17.csv
+│   │   ├── Sunrisers Hyderabad-Mumbai Indians-2023-05-21.csv
+│   │   ├── Sunrisers Hyderabad-Mumbai Indians-2024-03-27.csv
+│   │   ├── Sunrisers Hyderabad-Mumbai Indians-2024-05-06.csv
+│   │   ├── Sunrisers Hyderabad-Mumbai Indians-2025-04-17.csv
+│   │   ├── Sunrisers Hyderabad-Pune Warriors-2013-04-05.csv
+│   │   ├── Sunrisers Hyderabad-Punjab Kings-2022-05-22.csv
+│   │   ├── Sunrisers Hyderabad-Punjab Kings-2024-04-09.csv
+│   │   ├── Sunrisers Hyderabad-Rajasthan Royals-2013-05-17.csv
+│   │   ├── Sunrisers Hyderabad-Rajasthan Royals-2014-04-18.csv
+│   │   ├── Sunrisers Hyderabad-Rajasthan Royals-2015-04-16.csv
+│   │   ├── Sunrisers Hyderabad-Rajasthan Royals-2018-04-29.csv
+│   │   ├── Sunrisers Hyderabad-Rajasthan Royals-2019-04-27.csv
+│   │   ├── Sunrisers Hyderabad-Rajasthan Royals-2020-10-11.csv
+│   │   ├── Sunrisers Hyderabad-Rajasthan Royals-2024-05-02.csv
+│   │   ├── Sunrisers Hyderabad-Rajasthan Royals-2024-05-24.csv
+│   │   ├── Sunrisers Hyderabad-Rajasthan Royals-2025-03-23.csv
+│   │   ├── Sunrisers Hyderabad-Rising Pune Supergiant-2017-05-06.csv
+│   │   ├── Sunrisers Hyderabad-Rising Pune Supergiants-2016-04-26.csv
+│   │   ├── Sunrisers Hyderabad-Royal Challengers Bangalore-2013-04-07.csv
+│   │   ├── Sunrisers Hyderabad-Royal Challengers Bangalore-2014-05-20.csv
+│   │   ├── Sunrisers Hyderabad-Royal Challengers Bangalore-2015-05-15.csv
+│   │   ├── Sunrisers Hyderabad-Royal Challengers Bangalore-2016-04-30.csv
+│   │   ├── Sunrisers Hyderabad-Royal Challengers Bangalore-2017-04-05.csv
+│   │   ├── Sunrisers Hyderabad-Royal Challengers Bangalore-2018-05-07.csv
+│   │   ├── Sunrisers Hyderabad-Royal Challengers Bangalore-2019-03-31.csv
+│   │   ├── Sunrisers Hyderabad-Royal Challengers Bangalore-2019-05-04.csv
+│   │   ├── Sunrisers Hyderabad-Royal Challengers Bangalore-2021-10-06.csv
+│   │   ├── Sunrisers Hyderabad-Royal Challengers Bangalore-2023-05-18.csv
+│   │   └── Sunrisers Hyderabad-Royal Challengers Bengaluru-2024-04-15.csv
 │   │   ├── match_players.csv
 │   │   └── sample_match_players.csv
 │   │   ├── best_fantasy_11.csv
+│   │   ├── evaluation_benchmark_report.json
+│   │   ├── match_by_match_evaluation.csv
 │   │   ├── match_evaluation_batsman.csv
 │   │   ├── match_evaluation_bowler.csv
-│   │   └── match_evaluation_combined.csv
+│   │   ├── match_evaluation_combined.csv
+│   │   └── predicted_best_team.csv
 │   │   ├── batsman_d11.csv
 │   │   ├── batsman_data.csv
 │   │   ├── batsman_features.csv
@@ -18,33 +1149,1205 @@ Project Structure for: C:\Users\boxer\Desktop\PROJ_ML
 │   │   ├── bowler_features.csv
 │   │   ├── bowler_test.csv
 │   │   └── bowler_train.csv
-
+│       ├── 1082591.yaml
+│       ├── 1082592.yaml
+│       ├── 1082593.yaml
+│       ├── 1082594.yaml
+│       ├── 1082595.yaml
+│       ├── 1082596.yaml
+│       ├── 1082597.yaml
+│       ├── 1082598.yaml
+│       ├── 1082599.yaml
+│       ├── 1082600.yaml
+│       ├── 1082601.yaml
+│       ├── 1082602.yaml
+│       ├── 1082603.yaml
+│       ├── 1082604.yaml
+│       ├── 1082605.yaml
+│       ├── 1082606.yaml
+│       ├── 1082607.yaml
+│       ├── 1082608.yaml
+│       ├── 1082609.yaml
+│       ├── 1082610.yaml
+│       ├── 1082611.yaml
+│       ├── 1082612.yaml
+│       ├── 1082613.yaml
+│       ├── 1082614.yaml
+│       ├── 1082615.yaml
+│       ├── 1082616.yaml
+│       ├── 1082617.yaml
+│       ├── 1082618.yaml
+│       ├── 1082620.yaml
+│       ├── 1082621.yaml
+│       ├── 1082622.yaml
+│       ├── 1082623.yaml
+│       ├── 1082624.yaml
+│       ├── 1082625.yaml
+│       ├── 1082626.yaml
+│       ├── 1082627.yaml
+│       ├── 1082628.yaml
+│       ├── 1082629.yaml
+│       ├── 1082630.yaml
+│       ├── 1082631.yaml
+│       ├── 1082632.yaml
+│       ├── 1082633.yaml
+│       ├── 1082634.yaml
+│       ├── 1082635.yaml
+│       ├── 1082636.yaml
+│       ├── 1082637.yaml
+│       ├── 1082638.yaml
+│       ├── 1082639.yaml
+│       ├── 1082640.yaml
+│       ├── 1082641.yaml
+│       ├── 1082642.yaml
+│       ├── 1082643.yaml
+│       ├── 1082644.yaml
+│       ├── 1082645.yaml
+│       ├── 1082646.yaml
+│       ├── 1082647.yaml
+│       ├── 1082648.yaml
+│       ├── 1082649.yaml
+│       ├── 1082650.yaml
+│       ├── 1136561.yaml
+│       ├── 1136562.yaml
+│       ├── 1136563.yaml
+│       ├── 1136564.yaml
+│       ├── 1136565.yaml
+│       ├── 1136566.yaml
+│       ├── 1136567.yaml
+│       ├── 1136568.yaml
+│       ├── 1136569.yaml
+│       ├── 1136570.yaml
+│       ├── 1136571.yaml
+│       ├── 1136572.yaml
+│       ├── 1136573.yaml
+│       ├── 1136574.yaml
+│       ├── 1136575.yaml
+│       ├── 1136576.yaml
+│       ├── 1136577.yaml
+│       ├── 1136578.yaml
+│       ├── 1136579.yaml
+│       ├── 1136580.yaml
+│       ├── 1136581.yaml
+│       ├── 1136582.yaml
+│       ├── 1136583.yaml
+│       ├── 1136584.yaml
+│       ├── 1136585.yaml
+│       ├── 1136586.yaml
+│       ├── 1136587.yaml
+│       ├── 1136588.yaml
+│       ├── 1136589.yaml
+│       ├── 1136590.yaml
+│       ├── 1136591.yaml
+│       ├── 1136592.yaml
+│       ├── 1136593.yaml
+│       ├── 1136594.yaml
+│       ├── 1136595.yaml
+│       ├── 1136596.yaml
+│       ├── 1136597.yaml
+│       ├── 1136598.yaml
+│       ├── 1136599.yaml
+│       ├── 1136600.yaml
+│       ├── 1136601.yaml
+│       ├── 1136602.yaml
+│       ├── 1136603.yaml
+│       ├── 1136604.yaml
+│       ├── 1136605.yaml
+│       ├── 1136606.yaml
+│       ├── 1136607.yaml
+│       ├── 1136608.yaml
+│       ├── 1136609.yaml
+│       ├── 1136610.yaml
+│       ├── 1136611.yaml
+│       ├── 1136612.yaml
+│       ├── 1136613.yaml
+│       ├── 1136614.yaml
+│       ├── 1136615.yaml
+│       ├── 1136616.yaml
+│       ├── 1136617.yaml
+│       ├── 1136618.yaml
+│       ├── 1136619.yaml
+│       ├── 1136620.yaml
+│       ├── 1175356.yaml
+│       ├── 1175357.yaml
+│       ├── 1175358.yaml
+│       ├── 1175359.yaml
+│       ├── 1175360.yaml
+│       ├── 1175361.yaml
+│       ├── 1175362.yaml
+│       ├── 1175363.yaml
+│       ├── 1175364.yaml
+│       ├── 1175365.yaml
+│       ├── 1175366.yaml
+│       ├── 1175367.yaml
+│       ├── 1175368.yaml
+│       ├── 1175369.yaml
+│       ├── 1175370.yaml
+│       ├── 1175371.yaml
+│       ├── 1175372.yaml
+│       ├── 1178393.yaml
+│       ├── 1178394.yaml
+│       ├── 1178395.yaml
+│       ├── 1178396.yaml
+│       ├── 1178397.yaml
+│       ├── 1178398.yaml
+│       ├── 1178399.yaml
+│       ├── 1178400.yaml
+│       ├── 1178401.yaml
+│       ├── 1178402.yaml
+│       ├── 1178403.yaml
+│       ├── 1178404.yaml
+│       ├── 1178405.yaml
+│       ├── 1178406.yaml
+│       ├── 1178407.yaml
+│       ├── 1178408.yaml
+│       ├── 1178409.yaml
+│       ├── 1178410.yaml
+│       ├── 1178411.yaml
+│       ├── 1178412.yaml
+│       ├── 1178413.yaml
+│       ├── 1178414.yaml
+│       ├── 1178415.yaml
+│       ├── 1178416.yaml
+│       ├── 1178417.yaml
+│       ├── 1178418.yaml
+│       ├── 1178419.yaml
+│       ├── 1178420.yaml
+│       ├── 1178421.yaml
+│       ├── 1178422.yaml
+│       ├── 1178423.yaml
+│       ├── 1178424.yaml
+│       ├── 1178425.yaml
+│       ├── 1178426.yaml
+│       ├── 1178427.yaml
+│       ├── 1178428.yaml
+│       ├── 1178429.yaml
+│       ├── 1178430.yaml
+│       ├── 1178431.yaml
+│       ├── 1181764.yaml
+│       ├── 1181766.yaml
+│       ├── 1181767.yaml
+│       ├── 1181768.yaml
+│       ├── 1216492.yaml
+│       ├── 1216493.yaml
+│       ├── 1216494.yaml
+│       ├── 1216495.yaml
+│       ├── 1216496.yaml
+│       ├── 1216497.yaml
+│       ├── 1216498.yaml
+│       ├── 1216499.yaml
+│       ├── 1216500.yaml
+│       ├── 1216501.yaml
+│       ├── 1216502.yaml
+│       ├── 1216503.yaml
+│       ├── 1216504.yaml
+│       ├── 1216505.yaml
+│       ├── 1216506.yaml
+│       ├── 1216507.yaml
+│       ├── 1216508.yaml
+│       ├── 1216509.yaml
+│       ├── 1216510.yaml
+│       ├── 1216511.yaml
+│       ├── 1216512.yaml
+│       ├── 1216513.yaml
+│       ├── 1216514.yaml
+│       ├── 1216515.yaml
+│       ├── 1216516.yaml
+│       ├── 1216517.yaml
+│       ├── 1216518.yaml
+│       ├── 1216519.yaml
+│       ├── 1216520.yaml
+│       ├── 1216521.yaml
+│       ├── 1216522.yaml
+│       ├── 1216523.yaml
+│       ├── 1216524.yaml
+│       ├── 1216525.yaml
+│       ├── 1216526.yaml
+│       ├── 1216527.yaml
+│       ├── 1216528.yaml
+│       ├── 1216529.yaml
+│       ├── 1216530.yaml
+│       ├── 1216531.yaml
+│       ├── 1216532.yaml
+│       ├── 1216533.yaml
+│       ├── 1216534.yaml
+│       ├── 1216535.yaml
+│       ├── 1216536.yaml
+│       ├── 1216537.yaml
+│       ├── 1216538.yaml
+│       ├── 1216539.yaml
+│       ├── 1216540.yaml
+│       ├── 1216541.yaml
+│       ├── 1216542.yaml
+│       ├── 1216543.yaml
+│       ├── 1216544.yaml
+│       ├── 1216545.yaml
+│       ├── 1216546.yaml
+│       ├── 1216547.yaml
+│       ├── 1237177.yaml
+│       ├── 1237178.yaml
+│       ├── 1237180.yaml
+│       ├── 1237181.yaml
+│       ├── 1254058.yaml
+│       ├── 1254059.yaml
+│       ├── 1254060.yaml
+│       ├── 1254061.yaml
+│       ├── 1254062.yaml
+│       ├── 1254063.yaml
+│       ├── 1254064.yaml
+│       ├── 1254065.yaml
+│       ├── 1254066.yaml
+│       ├── 1254067.yaml
+│       ├── 1254068.yaml
+│       ├── 1254069.yaml
+│       ├── 1254070.yaml
+│       ├── 1254071.yaml
+│       ├── 1254072.yaml
+│       ├── 1254073.yaml
+│       ├── 1254074.yaml
+│       ├── 1254075.yaml
+│       ├── 1254076.yaml
+│       ├── 1254077.yaml
+│       ├── 1254078.yaml
+│       ├── 1254079.yaml
+│       ├── 1254080.yaml
+│       ├── 1254081.yaml
+│       ├── 1254082.yaml
+│       ├── 1254083.yaml
+│       ├── 1254084.yaml
+│       ├── 1254085.yaml
+│       ├── 1254086.yaml
+│       ├── 1254087.yaml
+│       ├── 1254088.yaml
+│       ├── 1254089.yaml
+│       ├── 1254090.yaml
+│       ├── 1254091.yaml
+│       ├── 1254092.yaml
+│       ├── 1254093.yaml
+│       ├── 1254094.yaml
+│       ├── 1254095.yaml
+│       ├── 1254096.yaml
+│       ├── 1254097.yaml
+│       ├── 1254098.yaml
+│       ├── 1254099.yaml
+│       ├── 1254100.yaml
+│       ├── 1254101.yaml
+│       ├── 1254102.yaml
+│       ├── 1254103.yaml
+│       ├── 1254104.yaml
+│       ├── 1254105.yaml
+│       ├── 1254106.yaml
+│       ├── 1254107.yaml
+│       ├── 1254108.yaml
+│       ├── 1254109.yaml
+│       ├── 1254110.yaml
+│       ├── 1254111.yaml
+│       ├── 1254112.yaml
+│       ├── 1254113.yaml
+│       ├── 1254114.yaml
+│       ├── 1254115.yaml
+│       ├── 1254116.yaml
+│       ├── 1254117.yaml
+│       ├── 1304047.yaml
+│       ├── 1304048.yaml
+│       ├── 1304049.yaml
+│       ├── 1304050.yaml
+│       ├── 1304051.yaml
+│       ├── 1304052.yaml
+│       ├── 1304053.yaml
+│       ├── 1304054.yaml
+│       ├── 1304055.yaml
+│       ├── 1304056.yaml
+│       ├── 1304057.yaml
+│       ├── 1304058.yaml
+│       ├── 1304059.yaml
+│       ├── 1304060.yaml
+│       ├── 1304061.yaml
+│       ├── 1304062.yaml
+│       ├── 1304063.yaml
+│       ├── 1304064.yaml
+│       ├── 1304065.yaml
+│       ├── 1304066.yaml
+│       ├── 1304067.yaml
+│       ├── 1304068.yaml
+│       ├── 1304069.yaml
+│       ├── 1304070.yaml
+│       ├── 1304071.yaml
+│       ├── 1304072.yaml
+│       ├── 1304073.yaml
+│       ├── 1304074.yaml
+│       ├── 1304075.yaml
+│       ├── 1304076.yaml
+│       ├── 1304077.yaml
+│       ├── 1304078.yaml
+│       ├── 1304079.yaml
+│       ├── 1304080.yaml
+│       ├── 1304081.yaml
+│       ├── 1304082.yaml
+│       ├── 1304083.yaml
+│       ├── 1304084.yaml
+│       ├── 1304085.yaml
+│       ├── 1304086.yaml
+│       ├── 1304087.yaml
+│       ├── 1304088.yaml
+│       ├── 1304089.yaml
+│       ├── 1304090.yaml
+│       ├── 1304091.yaml
+│       ├── 1304092.yaml
+│       ├── 1304093.yaml
+│       ├── 1304094.yaml
+│       ├── 1304095.yaml
+│       ├── 1304096.yaml
+│       ├── 1304097.yaml
+│       ├── 1304098.yaml
+│       ├── 1304099.yaml
+│       ├── 1304100.yaml
+│       ├── 1304101.yaml
+│       ├── 1304102.yaml
+│       ├── 1304103.yaml
+│       ├── 1304104.yaml
+│       ├── 1304105.yaml
+│       ├── 1304106.yaml
+│       ├── 1304107.yaml
+│       ├── 1304108.yaml
+│       ├── 1304109.yaml
+│       ├── 1304110.yaml
+│       ├── 1304111.yaml
+│       ├── 1304112.yaml
+│       ├── 1304113.yaml
+│       ├── 1304114.yaml
+│       ├── 1304115.yaml
+│       ├── 1304116.yaml
+│       ├── 1312197.yaml
+│       ├── 1312198.yaml
+│       ├── 1312199.yaml
+│       ├── 1312200.yaml
+│       ├── 1359475.yaml
+│       ├── 1359476.yaml
+│       ├── 1359477.yaml
+│       ├── 1359478.yaml
+│       ├── 1359479.yaml
+│       ├── 1359480.yaml
+│       ├── 1359481.yaml
+│       ├── 1359482.yaml
+│       ├── 1359483.yaml
+│       ├── 1359484.yaml
+│       ├── 1359485.yaml
+│       ├── 1359486.yaml
+│       ├── 1359487.yaml
+│       ├── 1359488.yaml
+│       ├── 1359489.yaml
+│       ├── 1359490.yaml
+│       ├── 1359491.yaml
+│       ├── 1359492.yaml
+│       ├── 1359493.yaml
+│       ├── 1359494.yaml
+│       ├── 1359495.yaml
+│       ├── 1359496.yaml
+│       ├── 1359497.yaml
+│       ├── 1359498.yaml
+│       ├── 1359499.yaml
+│       ├── 1359500.yaml
+│       ├── 1359501.yaml
+│       ├── 1359502.yaml
+│       ├── 1359503.yaml
+│       ├── 1359504.yaml
+│       ├── 1359505.yaml
+│       ├── 1359506.yaml
+│       ├── 1359507.yaml
+│       ├── 1359508.yaml
+│       ├── 1359509.yaml
+│       ├── 1359510.yaml
+│       ├── 1359511.yaml
+│       ├── 1359512.yaml
+│       ├── 1359513.yaml
+│       ├── 1359514.yaml
+│       ├── 1359515.yaml
+│       ├── 1359516.yaml
+│       ├── 1359517.yaml
+│       ├── 1359518.yaml
+│       ├── 1359519.yaml
+│       ├── 1359520.yaml
+│       ├── 1359521.yaml
+│       ├── 1359522.yaml
+│       ├── 1359523.yaml
+│       ├── 1359524.yaml
+│       ├── 1359525.yaml
+│       ├── 1359526.yaml
+│       ├── 1359527.yaml
+│       ├── 1359528.yaml
+│       ├── 1359529.yaml
+│       ├── 1359530.yaml
+│       ├── 1359531.yaml
+│       ├── 1359532.yaml
+│       ├── 1359533.yaml
+│       ├── 1359534.yaml
+│       ├── 1359535.yaml
+│       ├── 1359536.yaml
+│       ├── 1359537.yaml
+│       ├── 1359538.yaml
+│       ├── 1359539.yaml
+│       ├── 1359540.yaml
+│       ├── 1359541.yaml
+│       ├── 1359542.yaml
+│       ├── 1359543.yaml
+│       ├── 1359544.yaml
+│       ├── 1370350.yaml
+│       ├── 1370351.yaml
+│       ├── 1370352.yaml
+│       ├── 1370353.yaml
+│       ├── 1422119.yaml
+│       ├── 1422120.yaml
+│       ├── 1422121.yaml
+│       ├── 1422122.yaml
+│       ├── 1422123.yaml
+│       ├── 1422124.yaml
+│       ├── 1422125.yaml
+│       ├── 1422126.yaml
+│       ├── 1422127.yaml
+│       ├── 1422128.yaml
+│       ├── 1422129.yaml
+│       ├── 1422130.yaml
+│       ├── 1422131.yaml
+│       ├── 1422132.yaml
+│       ├── 1422133.yaml
+│       ├── 1422134.yaml
+│       ├── 1422135.yaml
+│       ├── 1422136.yaml
+│       ├── 1422137.yaml
+│       ├── 1422138.yaml
+│       ├── 1422139.yaml
+│       ├── 1426260.yaml
+│       ├── 1426261.yaml
+│       ├── 1426262.yaml
+│       ├── 1426263.yaml
+│       ├── 1426264.yaml
+│       ├── 1426265.yaml
+│       ├── 1426266.yaml
+│       ├── 1426267.yaml
+│       ├── 1426268.yaml
+│       ├── 1426269.yaml
+│       ├── 1426270.yaml
+│       ├── 1426271.yaml
+│       ├── 1426272.yaml
+│       ├── 1426273.yaml
+│       ├── 1426274.yaml
+│       ├── 1426275.yaml
+│       ├── 1426276.yaml
+│       ├── 1426277.yaml
+│       ├── 1426278.yaml
+│       ├── 1426279.yaml
+│       ├── 1426280.yaml
+│       ├── 1426281.yaml
+│       ├── 1426282.yaml
+│       ├── 1426283.yaml
+│       ├── 1426284.yaml
+│       ├── 1426285.yaml
+│       ├── 1426286.yaml
+│       ├── 1426287.yaml
+│       ├── 1426288.yaml
+│       ├── 1426289.yaml
+│       ├── 1426290.yaml
+│       ├── 1426291.yaml
+│       ├── 1426292.yaml
+│       ├── 1426293.yaml
+│       ├── 1426294.yaml
+│       ├── 1426295.yaml
+│       ├── 1426296.yaml
+│       ├── 1426297.yaml
+│       ├── 1426298.yaml
+│       ├── 1426299.yaml
+│       ├── 1426300.yaml
+│       ├── 1426302.yaml
+│       ├── 1426303.yaml
+│       ├── 1426305.yaml
+│       ├── 1426306.yaml
+│       ├── 1426307.yaml
+│       ├── 1426309.yaml
+│       ├── 1426310.yaml
+│       ├── 1426311.yaml
+│       ├── 1426312.yaml
+│       ├── 1473438.yaml
+│       ├── 1473439.yaml
+│       ├── 1473440.yaml
+│       ├── 1473441.yaml
+│       ├── 1473442.yaml
+│       ├── 1473443.yaml
+│       ├── 1473444.yaml
+│       ├── 1473445.yaml
+│       ├── 1473446.yaml
+│       ├── 1473447.yaml
+│       ├── 1473448.yaml
+│       ├── 1473449.yaml
+│       ├── 1473450.yaml
+│       ├── 1473451.yaml
+│       ├── 1473452.yaml
+│       ├── 1473453.yaml
+│       ├── 1473454.yaml
+│       ├── 1473455.yaml
+│       ├── 1473456.yaml
+│       ├── 1473457.yaml
+│       ├── 1473458.yaml
+│       ├── 1473459.yaml
+│       ├── 1473460.yaml
+│       ├── 1473461.yaml
+│       ├── 1473462.yaml
+│       ├── 1473463.yaml
+│       ├── 1473464.yaml
+│       ├── 1473465.yaml
+│       ├── 1473466.yaml
+│       ├── 1473467.yaml
+│       ├── 1473468.yaml
+│       ├── 1473469.yaml
+│       ├── 1473470.yaml
+│       ├── 335982.yaml
+│       ├── 335983.yaml
+│       ├── 335984.yaml
+│       ├── 335985.yaml
+│       ├── 335986.yaml
+│       ├── 335987.yaml
+│       ├── 335988.yaml
+│       ├── 335989.yaml
+│       ├── 335990.yaml
+│       ├── 335991.yaml
+│       ├── 335992.yaml
+│       ├── 335993.yaml
+│       ├── 335994.yaml
+│       ├── 335995.yaml
+│       ├── 335996.yaml
+│       ├── 335997.yaml
+│       ├── 335998.yaml
+│       ├── 335999.yaml
+│       ├── 336000.yaml
+│       ├── 336001.yaml
+│       ├── 336002.yaml
+│       ├── 336003.yaml
+│       ├── 336004.yaml
+│       ├── 336005.yaml
+│       ├── 336006.yaml
+│       ├── 336007.yaml
+│       ├── 336008.yaml
+│       ├── 336009.yaml
+│       ├── 336010.yaml
+│       ├── 336011.yaml
+│       ├── 336012.yaml
+│       ├── 336013.yaml
+│       ├── 336014.yaml
+│       ├── 336015.yaml
+│       ├── 336016.yaml
+│       ├── 336017.yaml
+│       ├── 336018.yaml
+│       ├── 336019.yaml
+│       ├── 336020.yaml
+│       ├── 336021.yaml
+│       ├── 336022.yaml
+│       ├── 336023.yaml
+│       ├── 336024.yaml
+│       ├── 336025.yaml
+│       ├── 336026.yaml
+│       ├── 336027.yaml
+│       ├── 336028.yaml
+│       ├── 336029.yaml
+│       ├── 336031.yaml
+│       ├── 336032.yaml
+│       ├── 336033.yaml
+│       ├── 336034.yaml
+│       ├── 336035.yaml
+│       ├── 336036.yaml
+│       ├── 336037.yaml
+│       ├── 336038.yaml
+│       ├── 336039.yaml
+│       ├── 336040.yaml
+│       ├── 392181.yaml
+│       ├── 392182.yaml
+│       ├── 392183.yaml
+│       ├── 392184.yaml
+│       ├── 392185.yaml
+│       ├── 392186.yaml
+│       ├── 392188.yaml
+│       ├── 392189.yaml
+│       ├── 392190.yaml
+│       ├── 392191.yaml
+│       ├── 392192.yaml
+│       ├── 392194.yaml
+│       ├── 392195.yaml
+│       ├── 392196.yaml
+│       ├── 392197.yaml
+│       ├── 392198.yaml
+│       ├── 392199.yaml
+│       ├── 392200.yaml
+│       ├── 392201.yaml
+│       ├── 392202.yaml
+│       ├── 392203.yaml
+│       ├── 392204.yaml
+│       ├── 392205.yaml
+│       ├── 392206.yaml
+│       ├── 392207.yaml
+│       ├── 392208.yaml
+│       ├── 392209.yaml
+│       ├── 392210.yaml
+│       ├── 392211.yaml
+│       ├── 392212.yaml
+│       ├── 392213.yaml
+│       ├── 392214.yaml
+│       ├── 392215.yaml
+│       ├── 392216.yaml
+│       ├── 392217.yaml
+│       ├── 392218.yaml
+│       ├── 392219.yaml
+│       ├── 392220.yaml
+│       ├── 392221.yaml
+│       ├── 392222.yaml
+│       ├── 392223.yaml
+│       ├── 392224.yaml
+│       ├── 392225.yaml
+│       ├── 392226.yaml
+│       ├── 392227.yaml
+│       ├── 392228.yaml
+│       ├── 392229.yaml
+│       ├── 392230.yaml
+│       ├── 392231.yaml
+│       ├── 392232.yaml
+│       ├── 392233.yaml
+│       ├── 392234.yaml
+│       ├── 392235.yaml
+│       ├── 392236.yaml
+│       ├── 392237.yaml
+│       ├── 392238.yaml
+│       ├── 392239.yaml
+│       ├── 419106.yaml
+│       ├── 419107.yaml
+│       ├── 419108.yaml
+│       ├── 419109.yaml
+│       ├── 419110.yaml
+│       ├── 419111.yaml
+│       ├── 419112.yaml
+│       ├── 419113.yaml
+│       ├── 419114.yaml
+│       ├── 419115.yaml
+│       ├── 419116.yaml
+│       ├── 419117.yaml
+│       ├── 419118.yaml
+│       ├── 419119.yaml
+│       ├── 419120.yaml
+│       ├── 419121.yaml
+│       ├── 419122.yaml
+│       ├── 419123.yaml
+│       ├── 419124.yaml
+│       ├── 419125.yaml
+│       ├── 419126.yaml
+│       ├── 419127.yaml
+│       ├── 419128.yaml
+│       ├── 419129.yaml
+│       ├── 419130.yaml
+│       ├── 419131.yaml
+│       ├── 419132.yaml
+│       ├── 419133.yaml
+│       ├── 419134.yaml
+│       ├── 419135.yaml
+│       ├── 419136.yaml
+│       ├── 419137.yaml
+│       ├── 419138.yaml
+│       ├── 419139.yaml
+│       ├── 419140.yaml
+│       ├── 419141.yaml
+│       ├── 419142.yaml
+│       ├── 419143.yaml
+│       ├── 419144.yaml
+│       ├── 419145.yaml
+│       ├── 419146.yaml
+│       ├── 419147.yaml
+│       ├── 419148.yaml
+│       ├── 419149.yaml
+│       ├── 419150.yaml
+│       ├── 419151.yaml
+│       ├── 419152.yaml
+│       ├── 419153.yaml
+│       ├── 419154.yaml
+│       ├── 419155.yaml
+│       ├── 419156.yaml
+│       ├── 419157.yaml
+│       ├── 419158.yaml
+│       ├── 419159.yaml
+│       ├── 419160.yaml
+│       ├── 419161.yaml
+│       ├── 419162.yaml
+│       ├── 419163.yaml
+│       ├── 419164.yaml
+│       ├── 419165.yaml
+│       ├── 501198.yaml
+│       ├── 501199.yaml
+│       ├── 501200.yaml
+│       ├── 501201.yaml
+│       ├── 501202.yaml
+│       ├── 501203.yaml
+│       ├── 501204.yaml
+│       ├── 501205.yaml
+│       ├── 501206.yaml
+│       ├── 501207.yaml
+│       ├── 501208.yaml
+│       ├── 501209.yaml
+│       ├── 501210.yaml
+│       ├── 501211.yaml
+│       ├── 501212.yaml
+│       ├── 501213.yaml
+│       ├── 501214.yaml
+│       ├── 501215.yaml
+│       ├── 501216.yaml
+│       ├── 501218.yaml
+│       ├── 501219.yaml
+│       ├── 501220.yaml
+│       ├── 501221.yaml
+│       ├── 501222.yaml
+│       ├── 501223.yaml
+│       ├── 501224.yaml
+│       ├── 501225.yaml
+│       ├── 501226.yaml
+│       ├── 501227.yaml
+│       ├── 501228.yaml
+│       ├── 501229.yaml
+│       ├── 501230.yaml
+│       ├── 501231.yaml
+│       ├── 501232.yaml
+│       ├── 501233.yaml
+│       ├── 501234.yaml
+│       ├── 501235.yaml
+│       ├── 501236.yaml
+│       ├── 501237.yaml
+│       ├── 501238.yaml
+│       ├── 501239.yaml
+│       ├── 501240.yaml
+│       ├── 501241.yaml
+│       ├── 501242.yaml
+│       ├── 501243.yaml
+│       ├── 501244.yaml
+│       ├── 501245.yaml
+│       ├── 501246.yaml
+│       ├── 501247.yaml
+│       ├── 501248.yaml
+│       ├── 501249.yaml
+│       ├── 501250.yaml
+│       ├── 501251.yaml
+│       ├── 501252.yaml
+│       ├── 501253.yaml
+│       ├── 501254.yaml
+│       ├── 501255.yaml
+│       ├── 501256.yaml
+│       ├── 501257.yaml
+│       ├── 501258.yaml
+│       ├── 501259.yaml
+│       ├── 501260.yaml
+│       ├── 501261.yaml
+│       ├── 501262.yaml
+│       ├── 501263.yaml
+│       ├── 501264.yaml
+│       ├── 501265.yaml
+│       ├── 501266.yaml
+│       ├── 501267.yaml
+│       ├── 501268.yaml
+│       ├── 501269.yaml
+│       ├── 501270.yaml
+│       ├── 501271.yaml
+│       ├── 548306.yaml
+│       ├── 548307.yaml
+│       ├── 548308.yaml
+│       ├── 548309.yaml
+│       ├── 548310.yaml
+│       ├── 548311.yaml
+│       ├── 548312.yaml
+│       ├── 548313.yaml
+│       ├── 548314.yaml
+│       ├── 548315.yaml
+│       ├── 548316.yaml
+│       ├── 548317.yaml
+│       ├── 548318.yaml
+│       ├── 548319.yaml
+│       ├── 548320.yaml
+│       ├── 548321.yaml
+│       ├── 548322.yaml
+│       ├── 548323.yaml
+│       ├── 548324.yaml
+│       ├── 548325.yaml
+│       ├── 548326.yaml
+│       ├── 548327.yaml
+│       ├── 548328.yaml
+│       ├── 548329.yaml
+│       ├── 548330.yaml
+│       ├── 548331.yaml
+│       ├── 548332.yaml
+│       ├── 548333.yaml
+│       ├── 548334.yaml
+│       ├── 548335.yaml
+│       ├── 548336.yaml
+│       ├── 548337.yaml
+│       ├── 548339.yaml
+│       ├── 548341.yaml
+│       ├── 548342.yaml
+│       ├── 548343.yaml
+│       ├── 548344.yaml
+│       ├── 548345.yaml
+│       ├── 548346.yaml
+│       ├── 548347.yaml
+│       ├── 548348.yaml
+│       ├── 548349.yaml
+│       ├── 548350.yaml
+│       ├── 548351.yaml
+│       ├── 548352.yaml
+│       ├── 548353.yaml
+│       ├── 548354.yaml
+│       ├── 548355.yaml
+│       ├── 548356.yaml
+│       ├── 548357.yaml
+│       ├── 548358.yaml
+│       ├── 548359.yaml
+│       ├── 548360.yaml
+│       ├── 548361.yaml
+│       ├── 548362.yaml
+│       ├── 548363.yaml
+│       ├── 548364.yaml
+│       ├── 548365.yaml
+│       ├── 548366.yaml
+│       ├── 548367.yaml
+│       ├── 548368.yaml
+│       ├── 548369.yaml
+│       ├── 548370.yaml
+│       ├── 548371.yaml
+│       ├── 548372.yaml
+│       ├── 548373.yaml
+│       ├── 548374.yaml
+│       ├── 548375.yaml
+│       ├── 548376.yaml
+│       ├── 548377.yaml
+│       ├── 548378.yaml
+│       ├── 548379.yaml
+│       ├── 548380.yaml
+│       ├── 548381.yaml
+│       ├── 597998.yaml
+│       ├── 597999.yaml
+│       ├── 598000.yaml
+│       ├── 598001.yaml
+│       ├── 598002.yaml
+│       ├── 598003.yaml
+│       ├── 598004.yaml
+│       ├── 598005.yaml
+│       ├── 598006.yaml
+│       ├── 598007.yaml
+│       ├── 598008.yaml
+│       ├── 598009.yaml
+│       ├── 598010.yaml
+│       ├── 598011.yaml
+│       ├── 598012.yaml
+│       ├── 598013.yaml
+│       ├── 598014.yaml
+│       ├── 598015.yaml
+│       ├── 598016.yaml
+│       ├── 598017.yaml
+│       ├── 598018.yaml
+│       ├── 598019.yaml
+│       ├── 598020.yaml
+│       ├── 598021.yaml
+│       ├── 598022.yaml
+│       ├── 598023.yaml
+│       ├── 598024.yaml
+│       ├── 598025.yaml
+│       ├── 598026.yaml
+│       ├── 598027.yaml
+│       ├── 598028.yaml
+│       ├── 598029.yaml
+│       ├── 598030.yaml
+│       ├── 598031.yaml
+│       ├── 598032.yaml
+│       ├── 598033.yaml
+│       ├── 598034.yaml
+│       ├── 598035.yaml
+│       ├── 598036.yaml
+│       ├── 598037.yaml
+│       ├── 598038.yaml
+│       ├── 598039.yaml
+│       ├── 598040.yaml
+│       ├── 598041.yaml
+│       ├── 598042.yaml
+│       ├── 598043.yaml
+│       ├── 598044.yaml
+│       ├── 598045.yaml
+│       ├── 598046.yaml
+│       ├── 598047.yaml
+│       ├── 598048.yaml
+│       ├── 598049.yaml
+│       ├── 598050.yaml
+│       ├── 598051.yaml
+│       ├── 598052.yaml
+│       ├── 598053.yaml
+│       ├── 598054.yaml
+│       ├── 598055.yaml
+│       ├── 598056.yaml
+│       ├── 598057.yaml
+│       ├── 598058.yaml
+│       ├── 598059.yaml
+│       ├── 598060.yaml
+│       ├── 598061.yaml
+│       ├── 598062.yaml
+│       ├── 598063.yaml
+│       ├── 598064.yaml
+│       ├── 598065.yaml
+│       ├── 598066.yaml
+│       ├── 598067.yaml
+│       ├── 598068.yaml
+│       ├── 598069.yaml
+│       ├── 598070.yaml
+│       ├── 598071.yaml
+│       ├── 598072.yaml
+│       ├── 598073.yaml
+│       ├── 729279.yaml
+│       ├── 729281.yaml
+│       ├── 729283.yaml
+│       ├── 729285.yaml
+│       ├── 729287.yaml
+│       ├── 729289.yaml
+│       ├── 729291.yaml
+│       ├── 729293.yaml
+│       ├── 729295.yaml
+│       ├── 729297.yaml
+│       ├── 729299.yaml
+│       ├── 729301.yaml
+│       ├── 729303.yaml
+│       ├── 729305.yaml
+│       ├── 729307.yaml
+│       ├── 729309.yaml
+│       ├── 729311.yaml
+│       ├── 729313.yaml
+│       ├── 729315.yaml
+│       ├── 729317.yaml
+│       ├── 733971.yaml
+│       ├── 733973.yaml
+│       ├── 733975.yaml
+│       ├── 733977.yaml
+│       ├── 733979.yaml
+│       ├── 733981.yaml
+│       ├── 733983.yaml
+│       ├── 733985.yaml
+│       ├── 733987.yaml
+│       ├── 733989.yaml
+│       ├── 733991.yaml
+│       ├── 733993.yaml
+│       ├── 733995.yaml
+│       ├── 733997.yaml
+│       ├── 733999.yaml
+│       ├── 734001.yaml
+│       ├── 734003.yaml
+│       ├── 734005.yaml
+│       ├── 734007.yaml
+│       ├── 734009.yaml
+│       ├── 734011.yaml
+│       ├── 734013.yaml
+│       ├── 734015.yaml
+│       ├── 734017.yaml
+│       ├── 734019.yaml
+│       ├── 734021.yaml
+│       ├── 734023.yaml
+│       ├── 734025.yaml
+│       ├── 734027.yaml
+│       ├── 734029.yaml
+│       ├── 734031.yaml
+│       ├── 734033.yaml
+│       ├── 734035.yaml
+│       ├── 734037.yaml
+│       ├── 734039.yaml
+│       ├── 734041.yaml
+│       ├── 734043.yaml
+│       ├── 734045.yaml
+│       ├── 734047.yaml
+│       ├── 734049.yaml
+│       ├── 829705.yaml
+│       ├── 829707.yaml
+│       ├── 829709.yaml
+│       ├── 829711.yaml
+│       ├── 829713.yaml
+│       ├── 829715.yaml
+│       ├── 829717.yaml
+│       ├── 829719.yaml
+│       ├── 829721.yaml
+│       ├── 829723.yaml
+│       ├── 829725.yaml
+│       ├── 829727.yaml
+│       ├── 829729.yaml
+│       ├── 829731.yaml
+│       ├── 829733.yaml
+│       ├── 829735.yaml
+│       ├── 829737.yaml
+│       ├── 829739.yaml
+│       ├── 829741.yaml
+│       ├── 829743.yaml
+│       ├── 829745.yaml
+│       ├── 829747.yaml
+│       ├── 829749.yaml
+│       ├── 829751.yaml
+│       ├── 829753.yaml
+│       ├── 829757.yaml
+│       ├── 829759.yaml
+│       ├── 829761.yaml
+│       ├── 829763.yaml
+│       ├── 829765.yaml
+│       ├── 829767.yaml
+│       ├── 829769.yaml
+│       ├── 829771.yaml
+│       ├── 829773.yaml
+│       ├── 829775.yaml
+│       ├── 829777.yaml
+│       ├── 829779.yaml
+│       ├── 829781.yaml
+│       ├── 829783.yaml
+│       ├── 829785.yaml
+│       ├── 829787.yaml
+│       ├── 829789.yaml
+│       ├── 829791.yaml
+│       ├── 829793.yaml
+│       ├── 829795.yaml
+│       ├── 829797.yaml
+│       ├── 829799.yaml
+│       ├── 829801.yaml
+│       ├── 829803.yaml
+│       ├── 829805.yaml
+│       ├── 829807.yaml
+│       ├── 829809.yaml
+│       ├── 829811.yaml
+│       ├── 829813.yaml
+│       ├── 829815.yaml
+│       ├── 829817.yaml
+│       ├── 829819.yaml
+│       ├── 829821.yaml
+│       ├── 829823.yaml
+│       ├── 980901.yaml
+│       ├── 980903.yaml
+│       ├── 980905.yaml
+│       ├── 980907.yaml
+│       ├── 980909.yaml
+│       ├── 980911.yaml
+│       ├── 980913.yaml
+│       ├── 980915.yaml
+│       ├── 980917.yaml
+│       ├── 980919.yaml
+│       ├── 980921.yaml
+│       ├── 980923.yaml
+│       ├── 980925.yaml
+│       ├── 980927.yaml
+│       ├── 980929.yaml
+│       ├── 980931.yaml
+│       ├── 980933.yaml
+│       ├── 980935.yaml
+│       ├── 980937.yaml
+│       ├── 980939.yaml
+│       ├── 980941.yaml
+│       ├── 980943.yaml
+│       ├── 980945.yaml
+│       ├── 980947.yaml
+│       ├── 980949.yaml
+│       ├── 980951.yaml
+│       ├── 980953.yaml
+│       ├── 980955.yaml
+│       ├── 980957.yaml
+│       ├── 980959.yaml
+│       ├── 980961.yaml
+│       ├── 980963.yaml
+│       ├── 980965.yaml
+│       ├── 980967.yaml
+│       ├── 980969.yaml
+│       ├── 980971.yaml
+│       ├── 980973.yaml
+│       ├── 980975.yaml
+│       ├── 980977.yaml
+│       ├── 980979.yaml
+│       ├── 980981.yaml
+│       ├── 980983.yaml
+│       ├── 980985.yaml
+│       ├── 980987.yaml
+│       ├── 980989.yaml
+│       ├── 980991.yaml
+│       ├── 980993.yaml
+│       ├── 980995.yaml
+│       ├── 980997.yaml
+│       ├── 980999.yaml
+│       ├── 981001.yaml
+│       ├── 981003.yaml
+│       ├── 981005.yaml
+│       ├── 981007.yaml
+│       ├── 981009.yaml
+│       ├── 981011.yaml
+│       ├── 981013.yaml
+│       ├── 981015.yaml
+│       ├── 981017.yaml
+│       ├── 981019.yaml
+│       └── README.txt
 │   ├── csv_matches/
 │   ├── match_input/
 │   ├── output/
 │   ├── processed/
 │   └── raw_yamls/
+│   ├── evaluation_harness.py
 │   ├── extract_csv.py
 │   ├── feature_engineering.py
 │   ├── feature_engineering_and_split.py
 │   ├── train_model.py
 │   └── train_xgboost.py
+│   ├── batsman_model.json
 │   ├── batsman_model.pkl
 │   ├── batsman_model_xgb.pkl
+│   ├── bowler_model.json
 │   ├── bowler_model.pkl
 │   └── bowler_model_xgb.pkl
 │   └── team_selector.py
 │   ├── app.py
 │   └── eda.py
-PROJ_ML/
+│   │   ├── __init__.py
+│   │   ├── match.py
+│   │   ├── player.py
+│   │   └── prediction.py
+│   │   ├── __init__.py
+│   │   ├── analytics.py
+│   │   ├── health.py
+│   │   ├── matches.py
+│   │   └── predict.py
+│   │   ├── __init__.py
+│   │   ├── analytics_service.py
+│   │   ├── cricket_api.py
+│   │   └── ml_service.py
+│   ├── models/
+│   ├── routers/
+│   ├── services/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── index.py
+│   └── requirements.txt
+│   │   ├── AnalyticsView.jsx
+│   │   ├── MatchesView.jsx
+│   │   └── PredictorView.jsx
+│   ├── components/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+fantasy11cricketteamprediction-main/
+├── .devcontainer/
 ├── 01_data/
 ├── 02_scripts/
 ├── 03_models/
 ├── 04_optimizer/
 ├── 05_visuals/
-├── 06_app/
+├── api/
+├── src/
 ├── .gitignore
-├── Team_selector_1.py
+├── .vercelignore
+├── README.md
 ├── app.py
+├── eda.py
+├── index.html
+├── main.py
+├── package-lock.json
+├── package.json
+├── predicted_best_team.csv
 ├── proj_dir.py
-└── project_structure.txt
+├── project_structure.txt
+├── requirements-local.txt
+├── requirements.txt
+├── team_selector.py
+├── vercel.json
+└── vite.config.js

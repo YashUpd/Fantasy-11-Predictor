@@ -51,8 +51,12 @@ def select_best_11(player_df):
     return pd.DataFrame(final_team)
 
 if __name__ == "__main__":
+    import sys
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
     # Load models
-    bat_model, bowl_model = load_models("03_models/batsman_model_xgb.pkl", "03_models/bowler_model.pkl")
+    bat_model, bowl_model = load_models("03_models/batsman_model_xgb.pkl", "03_models/bowler_model_xgb.pkl")
 
     # Load unified match player data with role info
     player_df = pd.read_csv("01_data/match_input/match_players.csv")
@@ -78,4 +82,4 @@ if __name__ == "__main__":
     # Select best 11
     best_11 = select_best_11(all_players)
     best_11.to_csv("01_data/output/best_fantasy_11.csv", index=False)
-    print("✅ Best Fantasy 11 saved to: output/best_fantasy_11.csv")
+    print("✅ Best Fantasy 11 saved to: 01_data/output/best_fantasy_11.csv")

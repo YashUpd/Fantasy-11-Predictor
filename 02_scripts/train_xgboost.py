@@ -1,7 +1,12 @@
+import sys
+import os
 import pandas as pd
 from xgboost import XGBRegressor
 import joblib
-import os
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
 
 
 def train_xgb_model(train_df, features, target):
@@ -85,10 +90,13 @@ if __name__ == "__main__":
     bat_model = train_xgb_model(bat_train, bat_features, 'points')
     bowl_model = train_xgb_model(bowl_train, bowl_features, 'points')
 
-    # Save Models
+    # Save Models (.pkl and lightweight .json)
+    os.makedirs("03_models", exist_ok=True)
     joblib.dump(bat_model, "03_models/batsman_model_xgb.pkl")
     joblib.dump(bowl_model, "03_models/bowler_model_xgb.pkl")
-    print("✅ Models saved to 03_models/")
+    bat_model.save_model("03_models/batsman_model.json")
+    bowl_model.save_model("03_models/bowler_model.json")
+    print("✅ Models saved (.pkl and .json) to 03_models/")
 
     # Predict
     bat_test = predict_points(bat_model, bat_test, bat_features)
@@ -96,3 +104,4 @@ if __name__ == "__main__":
 
     # Evaluate combined matches
     evaluate_combined_matches(bat_test, bowl_test)
+

@@ -1,10 +1,14 @@
+import sys
 import os
 import pandas as pd
 from tqdm import tqdm
 import ast
 import json
 
-# ✅ Improved wicket column processing
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
+# Improved wicket column processing
 def fix_wicket_column(df):
     def is_wicket(x):
         # Handle NaN/None cases first
@@ -38,11 +42,14 @@ def fix_wicket_column(df):
         except:
             return 0
     
-    if 'wicket' not in df.columns:
-        df['wicket'] = 0
-    else:
+    if 'wicket_dict' in df.columns:
         df['wicket'] = df['wicket_dict'].apply(is_wicket)
+    elif 'wicket' in df.columns:
+        df['wicket'] = df['wicket'].apply(is_wicket)
+    else:
+        df['wicket'] = 0
     return df
+
 
 # ✅ Batting stats (unchanged)
 def extract_batting_stats(df):

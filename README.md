@@ -162,20 +162,25 @@ The system provides two interfaces:
 
 ### Option A: Streamlit UI
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-local.txt
 streamlit run app.py
 ```
 
-### Option B: Modern React + FastAPI UI
+### Option B: Modern React + FastAPI Architecture (Recommended)
 ```bash
-# Terminal 1: Start FastAPI backend
-uvicorn api.index:app --reload --port 8000
+# Activate Virtual Environment (PowerShell)
+.\.venv\Scripts\Activate.ps1
+
+# Terminal 1: Start FastAPI backend (either command works seamlessly)
+uvicorn main:app --reload --port 8000
+# or: uvicorn api.index:app --reload --port 8000
 
 # Terminal 2: Start React frontend
 npm install
 npm run dev
 ```
 Open [http://localhost:5173](http://localhost:5173) in your browser.
+
 
 ## Deployment on Vercel
 
